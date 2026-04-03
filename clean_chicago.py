@@ -88,11 +88,24 @@ def clean_chicago():
         log.info(f"  Step 3b+ — Corrected {fuzzy_chi.sum()} additional fuzzy matches")
 
     # Flag genuine non-Chicago cities (suburbs, other towns)
+    # First: fix NaN city rows that are within Chicago coordinates
+    null_city = df['City'].isna()
+    if null_city.sum() > 0:
+        in_chi_bounds = (
+            null_city &
+            df['Latitude'].between(41.6, 42.1) &
+            df['Longitude'].between(-87.95, -87.5)
+        )
+        df.loc[in_chi_bounds, 'City'] = 'CHICAGO'
+        log.info(f"  Step 3c — Set {in_chi_bounds.sum()} NaN-city rows to 'CHICAGO' "
+                 f"(coordinates within Chicago bounds)")
+
     non_chicago = df[df['City'] != 'CHICAGO']
     if len(non_chicago) > 0:
-        log.info(f"  Step 3c — Non-Chicago cities remaining ({len(non_chicago)} rows):")
-        for city_val, cnt in non_chicago['City'].value_counts().head(10).items():
-            log.info(f"    {city_val:25s} {cnt:>6,}")
+        log.info(f"  Step 3d — Non-Chicago cities remaining ({len(non_chicago)} rows):")
+        for city_val, cnt in non_chicago['City'].value_counts(dropna=False).head(10).items():
+            label = city_val if pd.notna(city_val) else 'NaN'
+            log.info(f"    {label:25s} {cnt:>6,}")
 
     # Filter to IL only
     pre_state = len(df)

@@ -116,21 +116,55 @@ def clean_nyc():
     # 6b: For ungraded rows WITH scores, recover from score thresholds
     # NYC official: A = 0-13, B = 14-27, C = 28+
     # Validation: 99.5% consistent with actual grades (565 mismatches out of 123,657)
+    #
+    # CAVEAT: score=0 with violations is a placeholder (score not finalized).
+    # Only trust score=0 as "Pass" if there are NO violations on the row.
     ungraded_with_score = df['outcome_tier'].isna() & df['score'].notna()
+
+    # Separate trustworthy score recoveries from suspicious score=0
+    score_zero_with_viols = (
+        ungraded_with_score &
+        (df['score'] == 0) &
+        (df['violation_code'].notna())
+    )
+    trustworthy_score = ungraded_with_score & ~score_zero_with_viols
+
     score_tiers = pd.cut(
-        df.loc[ungraded_with_score, 'score'],
+        df.loc[trustworthy_score, 'score'],
         bins=SCORE_BINS,
         labels=SCORE_LABELS
     )
-    df.loc[ungraded_with_score, 'outcome_tier'] = score_tiers
-    df.loc[ungraded_with_score, 'outcome_source'] = 'score'
+    df.loc[trustworthy_score, 'outcome_tier'] = score_tiers
+    df.loc[trustworthy_score, 'outcome_source'] = 'score'
 
-    recovered = ungraded_with_score.sum()
+    recovered = trustworthy_score.sum()
+    skipped = score_zero_with_viols.sum()
     total_tiered = df['outcome_tier'].notna().sum()
     remaining_null = df['outcome_tier'].isna().sum()
-    log.info(f"  Step 6b — Recovered {recovered:,} outcome_tiers from scores → "
+    log.info(f"  Step 6b — Recovered {recovered:,} outcome_tiers from scores "
+             f"(skipped {skipped:,} score=0-with-violations) → "
              f"{total_tiered:,} total ({total_tiered / len(df) * 100:.1f}% coverage, "
              f"{remaining_null:,} still null)")
+
+    # ── 6c. Flag standard vs non-standard inspection types ─────────────────────
+    # Non-standard types (Admin, Smoke-Free, Trans Fat, Calorie, Sodium) never
+    # get scored/graded and aren't comparable cross-city. They DO have violations
+    # useful for taxonomy, but shouldn't be used in outcome analysis.
+    non_standard_patterns = [
+        'Administrative Miscellaneous',
+        'Smoke-Free Air Act',
+        'Trans Fat',
+        'Calorie Posting',
+        'Sodium Warning',
+    ]
+    non_standard_regex = '|'.join(non_standard_patterns)
+    df['is_standard_inspection'] = ~df['inspection_type'].str.contains(
+        non_standard_regex, case=False, na=False
+    )
+    std_count = df['is_standard_inspection'].sum()
+    non_std_count = (~df['is_standard_inspection']).sum()
+    log.info(f"  Step 6c — Flagged inspection types: {std_count:,} standard, "
+             f"{non_std_count:,} non-standard (Admin/Smoke-Free/TransFat/Calorie/Sodium)")
 
     # ── 7. Violation description normalization ─────────────────────────────────
     # Fix near-duplicates caused by casing differences
@@ -159,7 +193,7 @@ def clean_nyc():
     # ── 8. Select output columns & save ────────────────────────────────────────
     output_cols = [
         'camis', 'dba', 'boro', 'cuisine_description',
-        'inspection_date', 'inspection_type',
+        'inspection_date', 'inspection_type', 'is_standard_inspection',
         'violation_code', 'violation_description',
         'critical_flag', 'score', 'grade', 'outcome_tier', 'outcome_source',
         'latitude', 'longitude', 'zipcode', 'zip_flag', 'city'
@@ -172,7 +206,7 @@ def clean_nyc():
 
     # ── Summary ────────────────────────────────────────────────────────────────
     print("\n" + "=" * 65)
-    print("NYC CLEANING SUMMARY (v2)")
+    print("NYC CLEANING SUMMARY (v3)")
     print("=" * 65)
     print(f"  Input rows:              {initial_count:,}")
     print(f"  Output rows:             {len(df_out):,}")
@@ -182,11 +216,23 @@ def clean_nyc():
     print(f"  Unique restaurants:      {df_out['camis'].nunique():,}")
     print(f"  Unique violation descs:  {df_out['violation_description'].dropna().nunique()}")
     print()
+    std = df_out['is_standard_inspection'].sum()
+    nonstd = (~df_out['is_standard_inspection']).sum()
+    print(f"  Standard inspections:    {std:,} ({std/len(df_out)*100:.1f}%)")
+    print(f"  Non-standard (Admin/Smoke/TransFat/etc): {nonstd:,} ({nonstd/len(df_out)*100:.1f}%)")
+    print()
     print("  Outcome tier distribution:")
     tier_counts = df_out['outcome_tier'].value_counts(dropna=False)
     for tier, count in tier_counts.items():
-        label = tier if pd.notna(tier) else 'NaN (no grade or score)'
-        print(f"    {label:30s} {count:>8,}  ({count / len(df_out) * 100:5.1f}%)")
+        label = tier if pd.notna(tier) else 'NaN (no grade/score or score=0 w/ violations)'
+        print(f"    {label:45s} {count:>8,}  ({count / len(df_out) * 100:5.1f}%)")
+    print()
+    print("  Outcome tier (STANDARD inspections only):")
+    std_only = df_out[df_out['is_standard_inspection']]
+    std_tiers = std_only['outcome_tier'].value_counts(dropna=False)
+    for tier, count in std_tiers.items():
+        label = tier if pd.notna(tier) else 'NaN'
+        print(f"    {label:45s} {count:>8,}  ({count / len(std_only) * 100:5.1f}%)")
     print()
     print("  Outcome source (how tier was determined):")
     src_counts = df_out['outcome_source'].value_counts(dropna=False)
