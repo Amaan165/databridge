@@ -1,0 +1,33 @@
+# ── Raw data (too large for git) ──────────────────────────────
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.z01
+
+# ── Large binary artifacts ────────────────────────────────────
+violation_taxonomy/violation_embeddings.npy
+*.npy
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Files over 100MB (GitHub limit) ──────────────────────────
+*.csv.gz
