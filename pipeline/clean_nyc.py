@@ -18,6 +18,10 @@ Cleaning steps:
   8. Include inspection_type column for downstream filtering
   9. Save cleaned CSV with summary stats
 
+v3 — Improvements over v2:
+  - is_reinspection flag (step 6d) derived from inspection_type
+    for fair cross-city comparison (initial vs follow-up inspections)
+
 v2 — Improvements over v1:
   - Score-based outcome_tier recovery (45% → 96% coverage)
   - Inspection type preserved for downstream filtering
@@ -166,6 +170,21 @@ def clean_nyc():
     log.info(f"  Step 6c — Flagged inspection types: {std_count:,} standard, "
              f"{non_std_count:,} non-standard (Admin/Smoke-Free/TransFat/Calorie/Sodium)")
 
+    # ── 6d. Flag re-inspections ────────────────────────────────────────────────
+    # NYC labels re-inspections explicitly in inspection_type:
+    #   "Cycle Inspection / Re-inspection"
+    #   "Pre-permit (Operational) / Re-inspection"
+    #   etc.
+    # This flag enables fair cross-city comparison by separating initial
+    # inspections from follow-ups (RQ1) and re-inspection effectiveness
+    # analysis (RQ3).
+    df['is_reinspection'] = df['inspection_type'].str.contains(
+        r'Re-inspection', case=False, na=False
+    )
+    reinsp_count = df['is_reinspection'].sum()
+    log.info(f"  Step 6d — Flagged {reinsp_count:,} re-inspection rows "
+             f"({reinsp_count / len(df) * 100:.1f}%)")
+
     # ── 7. Violation description normalization ─────────────────────────────────
     # Fix near-duplicates caused by casing differences
     # e.g., "Alcohol and Pregnancy" vs "Alcohol and pregnancy" (2,082 rows)
@@ -194,6 +213,7 @@ def clean_nyc():
     output_cols = [
         'camis', 'dba', 'boro', 'cuisine_description',
         'inspection_date', 'inspection_type', 'is_standard_inspection',
+        'is_reinspection',
         'violation_code', 'violation_description',
         'critical_flag', 'score', 'grade', 'outcome_tier', 'outcome_source',
         'latitude', 'longitude', 'zipcode', 'zip_flag', 'city'
@@ -220,6 +240,11 @@ def clean_nyc():
     nonstd = (~df_out['is_standard_inspection']).sum()
     print(f"  Standard inspections:    {std:,} ({std/len(df_out)*100:.1f}%)")
     print(f"  Non-standard (Admin/Smoke/TransFat/etc): {nonstd:,} ({nonstd/len(df_out)*100:.1f}%)")
+    print()
+    reinsp = df_out['is_reinspection'].sum()
+    initial = len(df_out) - reinsp
+    print(f"  Initial inspection rows: {initial:,} ({initial/len(df_out)*100:.1f}%)")
+    print(f"  Re-inspection rows:      {reinsp:,} ({reinsp/len(df_out)*100:.1f}%)")
     print()
     print("  Outcome tier distribution:")
     tier_counts = df_out['outcome_tier'].value_counts(dropna=False)

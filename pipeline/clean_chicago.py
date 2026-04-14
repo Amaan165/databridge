@@ -11,8 +11,13 @@ Cleaning steps:
   3. Normalize city casing + fix typos; filter to IL only
   4. Trim address whitespace
   5. Map results to outcome_tier; drop non-inspection outcomes
-  6. Standardize columns to snake_case; add city = 'chicago'
-  7. Save cleaned CSV with summary stats
+  6. Flag re-inspections from inspection_type labels
+  7. Standardize columns to snake_case; add city = 'chicago'
+  8. Save cleaned CSV with summary stats
+
+v3 — Improvements over v2:
+  - is_reinspection flag (step 6) derived from inspection_type
+    for fair cross-city comparison
 
 v2 — Improvements over v1:
   - City typos now corrected to CHICAGO (CHICAGOO, 312CHICAGO, CCHICAGO, etc.)
@@ -139,7 +144,20 @@ def clean_chicago():
     log.info(f"  Step 5 — Mapped results to outcome_tier: dropped {pre_drop - len(df):,} "
              f"non-inspection outcomes → {len(df):,} rows")
 
-    # ── 6. Standardize columns ─────────────────────────────────────────────────
+    # ── 6. Flag re-inspections ─────────────────────────────────────────────────
+    # Chicago labels re-inspections explicitly in Inspection Type:
+    #   "Canvass Re-Inspection", "Complaint Re-Inspection",
+    #   "License Re-Inspection", "Suspected Food Poisoning Re-inspection"
+    # This flag enables fair cross-city comparison (RQ1) and
+    # re-inspection effectiveness analysis (RQ3).
+    df['is_reinspection'] = df['Inspection Type'].str.contains(
+        r'Re-Inspect', case=False, na=False
+    )
+    reinsp_count = df['is_reinspection'].sum()
+    log.info(f"  Step 6 — Flagged {reinsp_count:,} re-inspection rows "
+             f"({reinsp_count / len(df) * 100:.1f}%)")
+
+    # ── 7. Standardize columns ─────────────────────────────────────────────────
     df.columns = (
         df.columns
         .str.strip()
@@ -154,13 +172,14 @@ def clean_chicago():
         'city': 'original_city',
     })
     df['city'] = 'chicago'
-    log.info(f"  Step 6 — Columns standardized to snake_case")
+    log.info(f"  Step 7 — Columns standardized to snake_case")
 
-    # ── 7. Select output columns & save ────────────────────────────────────────
+    # ── 8. Select output columns & save ────────────────────────────────────────
     output_cols = [
         'inspection_id', 'dba_name', 'aka_name', 'license_no',
         'facility_type', 'risk', 'address', 'original_city', 'state', 'zipcode',
-        'inspection_date', 'inspection_type', 'results', 'outcome_tier',
+        'inspection_date', 'inspection_type', 'is_reinspection',
+        'results', 'outcome_tier',
         'violations', 'latitude', 'longitude', 'city'
     ]
 
@@ -172,11 +191,11 @@ def clean_chicago():
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     df_out.to_csv(OUT_PATH, index=False)
-    log.info(f"  Step 7 — Saved {len(df_out):,} rows to {OUT_PATH}")
+    log.info(f"  Step 8 — Saved {len(df_out):,} rows to {OUT_PATH}")
 
     # ── Summary ────────────────────────────────────────────────────────────────
     print("\n" + "=" * 65)
-    print("CHICAGO CLEANING SUMMARY (v2)")
+    print("CHICAGO CLEANING SUMMARY (v3)")
     print("=" * 65)
     print(f"  Input rows:              {initial_count:,}")
     print(f"  Output rows:             {len(df_out):,}")
@@ -186,6 +205,11 @@ def clean_chicago():
     print(f"  Unique inspections:      {df_out['inspection_id'].nunique():,}")
     print(f"  Unique businesses (DBA): {df_out['dba_name'].nunique():,}")
     print(f"  Unique licenses:         {df_out['license_no'].nunique():,}")
+    print()
+    reinsp = df_out['is_reinspection'].sum()
+    initial = len(df_out) - reinsp
+    print(f"  Initial inspection rows: {initial:,} ({initial/len(df_out)*100:.1f}%)")
+    print(f"  Re-inspection rows:      {reinsp:,} ({reinsp/len(df_out)*100:.1f}%)")
     print()
     print("  Outcome tier distribution:")
     tier_counts = df_out['outcome_tier'].value_counts()
