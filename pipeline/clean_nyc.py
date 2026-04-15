@@ -95,7 +95,7 @@ def clean_nyc():
     df.loc[invalid_zip_mask, 'zip_flag'] = 'out_of_range'
     log.info(f"  Step 4b — Flagged {invalid_zip_mask.sum()} out-of-range zip codes")
 
-    # ── 5. Standardize columns ─────────────────────────────────────────────────
+    # ── 5a. Standardize columns ─────────────────────────────────────────────────
     df.columns = (
         df.columns
         .str.strip()
@@ -104,6 +104,16 @@ def clean_nyc():
     )
     df['city'] = 'nyc'
     log.info(f"  Step 5 — Columns standardized to snake_case; city='nyc' added")
+
+    # ── 5b. Construct address from building + street ───────────────────────
+    df['address'] = (
+        df['building'].fillna('').str.strip() + ' ' +
+        df['street'].fillna('').str.strip()
+    ).str.strip()
+    df.loc[df['address'] == '', 'address'] = np.nan
+    addr_count = df['address'].notna().sum()
+    log.info(f"  Step 5b — Built address from building+street: "
+             f"{addr_count:,} non-null ({addr_count / len(df) * 100:.1f}%)")
 
     # ── 6. Outcome tier: grade-first, then score-based recovery ───────────────
 
@@ -211,7 +221,7 @@ def clean_nyc():
 
     # ── 8. Select output columns & save ────────────────────────────────────────
     output_cols = [
-        'camis', 'dba', 'boro', 'cuisine_description',
+        'camis', 'dba', 'boro', 'address', 'cuisine_description',
         'inspection_date', 'inspection_type', 'is_standard_inspection',
         'is_reinspection',
         'violation_code', 'violation_description',
