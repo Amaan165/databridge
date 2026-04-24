@@ -1,0 +1,65 @@
+taxonomy_category_id,category_name,chicago_anchor,anchor_similarity,category_name_original
+1,Material Use Limitations,PROPER USE OF RESTRICTION AND EXCLUSION,0.337,Proper Use of Restriction and Exclusion
+2,Signage and Presentation Compliance,PROPER DATE MARKING AND DISPOSITION,0.601,Proper Date Marking and Disposition
+3,Prohibited Practices,PROPER USE OF RESTRICTION AND EXCLUSION,0.368,Proper Use of Restriction and Exclusion - Prohibiting Animals
+4,Variance and Specialized Processing Compliance,VARIANCE OBTAINED FOR SPECIALIZED PROCESSING METHODS,0.821,Variance Obtained for Specialized Processing Methods
+5,Lighting Safety Compliance,ADEQUATE VENTILATION & LIGHTING; DESIGNATED AREAS USED,0.464,Adequate Ventilation and Lighting; Designated Areas Used
+6,Juice Handling Violations,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",0.443,"Contamination Prevented During Food Preparation, Storage and Display"
+7,Shellfish Identification and Records,"REQUIRED RECORDS AVAILABLE: SHELLSTOCK TAGS, PARASITE DESTRUCTION",0.72,"Required Records Available: Shellstock Tags, Parasite Destruction"
+8,Nutritional Information Disclosure Violations,SUMMARY REPORT DISPLAYED AND VISIBLE TO THE PUBLIC,0.45,Summary Report Displayed and Visible to the Public
+9,Sodium Warning Violations,CONSUMER ADVISORY PROVIDED FOR RAW/UNDERCOOKED FOOD,0.366,Consumer Advisory Provided for Raw/Undercooked Food
+10,Operational Compliance Requirements,PROPER USE OF RESTRICTION AND EXCLUSION,0.858,Proper Use of Restriction and Exclusion - (A) (B) and (C)(1)
+11,Medicine and First Aid Storage,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",0.487,"Contamination Prevented During Food Preparation, Storage and Display - Restriction and Storage-Medicines"
+12,Employee and Management Responsibilities,"MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILITIES AND REPORTING",0.656,"Management, Food Employee and Conditional Employee; Knowledge, Responsibilities and Reporting"
+13,Person in Charge Duties,"PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",0.861,"Person in Charge Present, Demonstrates Knowledge, and Performs Duties"
+14,Compliance and Corrections,MISCELLANEOUS / PUBLIC HEALTH ORDERS,0.649,Miscellaneous / Public Health Orders
+15,Time Control for Safety,TIME AS A PUBLIC HEALTH CONTROL; PROCEDURES & RECORDS,0.957,Time as a Public Health Control; Procedures and Records
+16,Water and Ice Safety,WATER & ICE FROM APPROVED SOURCE,0.829,Water and Ice From Approved Source
+17,Tobacco and Smoking Regulations,"PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",0.368,"Proper Eating, Tasting, Drinking, or Tobacco Use"
+18,Signage and Compliance Violations,COMPLIANCE WITH CLEAN INDOOR AIR ORDINANCE,0.433,Compliance With Clean Indoor Air Ordinance
+19,Backflow Prevention Compliance,PLUMBING INSTALLED; PROPER BACKFLOW DEVICES,0.683,Plumbing Installed; Proper Backflow Devices
+20,Pest Infestation Issues,"INSECTS, RODENTS, & ANIMALS NOT PRESENT",0.762,"Insects, Rodents, and Animals not Present"
+21,Pest Control Management,"INSECTS, RODENTS, & ANIMALS NOT PRESENT",0.539,"Insects, Rodents, and Animals not Present - Controlling Pests"
+22,Equipment Installation and Maintenance,"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",0.475,"Physical Facilities Installed, Maintained and Clean"
+23,Ventilation and Lighting Compliance,ADEQUATE VENTILATION & LIGHTING; DESIGNATED AREAS USED,0.74,Adequate Ventilation and Lighting; Designated Areas Used - Cleaning Ventilation Systems Nuisance
+24,Signage Compliance Violations,REMOVAL OF SUSPENSION SIGN,0.606,Removal of Suspension Sign
+25,Disposable Items and Use Restrictions,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",0.493,"Contamination Prevented During Food Preparation, Storage and Display - Single service article not"
+26,Allergen Awareness Compliance,ALLERGEN TRAINING AS REQUIRED,0.568,Allergen Training as Required
+27,Thawing Procedures,APPROVED THAWING METHODS USED,0.821,Approved Thawing Methods Used
+28,Storage and Equipment Management,"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",0.489,"Physical Facilities Installed, Maintained and Clean - Capacity-Quantity and Availability"
+29,Structural Cleanliness and Maintenance,"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",0.422,"Physical Facilities Installed, Maintained and Clean - Floors Walls and Ceilings-Cleanability"
+30,Water and Temperature Control,HOT & COLD WATER AVAILABLE; ADEQUATE PRESSURE,0.846,Hot and Cold Water Available; Adequate Pressure
+31,Food Hygiene and Sanitation,WASHING FRUITS & VEGETABLES,0.921,Washing Fruits and Vegetables
+32,HACCP and ROP Compliance Violations,COMPLIANCE WITH VARIANCE/SPECIALIZED PROCESS/HACCP,0.499,Compliance With Variance/Specialized Process/Haccp
+33,Personal Hygiene Violations,PERSONAL CLEANLINESS,0.75,Personal Cleanliness
+34,Food Labeling Compliance,FOOD PROPERLY LABELED; ORIGINAL CONTAINER,0.836,Food Properly Labeled; Original Container
+35,Outdoor Storage and Protection,"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",0.419,"Physical Facilities Installed, Maintained and Clean - Outer Openings Protected"
+36,Waste and Drainage Management,GARBAGE & REFUSE PROPERLY DISPOSED; FACILITIES MAINTAINED,0.525,Garbage and Refuse Properly Disposed; Facilities Maintained
+37,Sanitation and Facilities Compliance,"TOILET FACILITIES: PROPERLY CONSTRUCTED, SUPPLIED, & CLEANED",0.823,"Toilet Facilities: Properly Constructed, Supplied, and Cleaned"
+38,Cooling and Temperature Control,PROPER COOLING METHODS USED; ADEQUATE EQUIPMENT FOR TEMPERATURE CONTROL,0.866,Proper Cooling Methods Used; Adequate Equipment for Temperature Control
+39,Plumbing and Sewage Issues,SEWAGE & WASTE WATER PROPERLY DISPOSED,0.646,Sewage and Waste Water Properly Disposed
+40,Waste Management Violations,GARBAGE & REFUSE PROPERLY DISPOSED; FACILITIES MAINTAINED,0.824,Garbage and Refuse Properly Disposed; Facilities Maintained - Maintaining Premises Unnecessary Items
+41,Personal Hygiene and Equipment Maintenance,GLOVES USED PROPERLY,0.83,Gloves Used Properly
+42,Consumption and Tobacco Use Violations,"PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",0.822,"Proper Eating, Tasting, Drinking, or Tobacco Use - Tobacco or electronic cigarette"
+43,Maintenance and Repair Compliance,"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",0.524,"Physical Facilities Installed, Maintained and Clean - System Maintained in Good"
+44,Chemical and Safety Violations,"TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, & USED",0.505,"Toxic Substances Properly Identified, Stored, and Used"
+45,Waste Management,"TOILET FACILITIES: PROPERLY CONSTRUCTED, SUPPLIED, & CLEANED",0.342,"Toilet Facilities: Properly Constructed, Supplied, and Cleaned - Outside Receptacles"
+46,Sanitation and Cleaning Practices,WIPING CLOTHS: PROPERLY USED & STORED,0.826,Wiping Cloths: Properly Used and Stored
+47,Sourcing and Handling Compliance,FOOD ADDITIVES: APPROVED AND PROPERLY USED,0.851,Food Additives: Approved and Properly Used
+48,Damaged Canned Food Handling,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",0.62,"Contamination Prevented During Food Preparation, Storage and Display - Swollen, leaking, rusted or"
+49,Handwashing Sink Compliance,ADEQUATE HANDWASHING SINKS PROPERLY SUPPLIED AND ACCESSIBLE,0.878,Adequate Handwashing Sinks Properly Supplied and Accessible
+50,Single-Service Article Compliance,SINGLE-USE/SINGLE-SERVICE ARTICLES: PROPERLY STORED & USED,0.816,Single-Use/Single-Service Articles: Properly Stored and Used
+51,Prohibited Foods Compliance,PASTEURIZED FOODS USED; PROHIBITED FOODS NOT OFFERED,0.897,Pasteurized Foods Used; Prohibited Foods not Offered
+52,Raw and Unpasteurized Foods,PASTEURIZED EGGS USED WHERE REQUIRED,0.849,Pasteurized Eggs Used Where Required
+53,Food Safety and Preparation,CONSUMER ADVISORY PROVIDED FOR RAW/UNDERCOOKED FOOD,0.814,"Consumer Advisory Provided for Raw/Undercooked Food - Raw, cooked or prepared"
+54,Food Safety and Sanitation Violations,"PROPER DISPOSITION OF RETURNED, PREVIOUSLY SERVED, RECONDITIONED & UNSAFE FOOD",0.844,"Proper Disposition of Returned, Previously Served, Reconditioned and Unsafe Food"
+55,Temperature Control,PROPER HOT HOLDING TEMPERATURES,0.926,Proper Hot Holding Temperatures
+56,Surface Cleanliness and Maintenance,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",0.926,"Food and Non-Food Contact Surfaces Cleanable, Properly Designed, Constructed and Used"
+57,Utensil and Equipment Storage,"UTENSILS, EQUIPMENT & LINENS: PROPERLY STORED, DRIED, & HANDLED",0.867,"Utensils, Equipment and Linens: Properly Stored, Dried, and Handled"
+58,Food Safety Certification,NO BARE HAND CONTACT WITH RTE FOOD OR A PRE-APPROVED ALTERNATIVE PROCEDURE PROPERLY ALLOWED,0.687,No Bare Hand Contact With Rte Food or a Pre-Approved Alternative Procedure Properly Allowed
+59,Contamination and Chemical Hazards,"TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, & USED",0.797,"Toxic Substances Properly Identified, Stored, and Used - Sanitized equipment or utensil,"
+60,Contamination Prevention,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",0.884,"Contamination Prevented During Food Preparation, Storage and Display - Food, supplies, or equipment"
+61,Time-Temperature Control Procedures,PROPER COOKING TIME & TEMPERATURES,0.739,Proper Cooking Time and Temperatures
+62,Holding and Cooking Temperatures,FOOD RECEIVED AT PROPER TEMPERATURE,0.77,Food Received At Proper Temperature
+63,Temperature Measurement Compliance,THERMOMETERS PROVIDED & ACCURATE,0.8,Thermometers Provided and Accurate
+64,Warewashing and Sanitization Compliance,"WAREWASHING FACILITIES: INSTALLED, MAINTAINED & USED; TEST STRIPS",0.736,"Warewashing Facilities: Installed, Maintained and Used; Test Strips"

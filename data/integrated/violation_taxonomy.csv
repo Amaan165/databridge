@@ -1,0 +1,546 @@
+violation_text,city,cluster_id,taxonomy_category_id,category_name,frequency
+Nonfood Contact Surfaces,boston,55,56,Surface Cleanliness and Maintenance,5724
+Controlling Pests,boston,20,21,Pest Control Management,4530
+Floors  Walls and Ceilings-Cleanability,boston,28,29,Structural Cleanliness and Maintenance,3472
+(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,55,56,Surface Cleanliness and Maintenance,2925
+System Maintained in Good Repair,boston,42,43,Maintenance and Repair Compliance,2709
+(A)(2) and (B) Time/Temperature Control for Safety Food  Hot and Cold Holding,boston,60,61,Time-Temperature Control Procedures,2503
+Repairing-Premises  Structures  Attachments  and Fixtures-Methods,boston,42,43,Maintenance and Repair Compliance,2343
+Packaged and Unpackaged Food-Separation  Packaging  and Segregation,boston,59,60,Contamination Prevention,2295
+Cleaning Ventilation Systems  Nuisance and Discharge Prohibition,boston,22,23,Ventilation and Lighting Compliance,2219
+Wiping Cloths  Use Limitation,boston,45,46,Sanitation and Cleaning Practices,2167
+Food Storage Containers Identified with Common Name of Food,boston,33,34,Food Labeling Compliance,2105
+Maintaining Premises  Unnecessary Items and Litter,boston,39,40,Waste Management Violations,2047
+Food Storage-Preventing Contamination from the Premises,boston,59,60,Contamination Prevention,2032
+(A)-(P) Person-In-Charge-Duties,boston,12,13,Person in Charge Duties,1993
+Using a Handwashing Sink-Operation and Maintenance,boston,48,49,Handwashing Sink Compliance,1986
+Nonfood-Contact Surfaces,boston,55,56,Surface Cleanliness and Maintenance,1967
+Hand Drying Provision,boston,45,46,Sanitation and Cleaning Practices,1833
+In-Use Utensils  Between-Use Storage,boston,56,57,Utensil and Equipment Storage,1780
+Surface Characteristics-Indoor Areas,boston,28,29,Structural Cleanliness and Maintenance,1710
+Ventilation Hood Systems  Filters,boston,22,23,Ventilation and Lighting Compliance,1708
+Good Repair and Proper Adjustment-Equipment,boston,42,43,Maintenance and Repair Compliance,1663
+Sanitizing Solutions  Testing Devices,boston,63,64,Warewashing and Sanitization Compliance,1470
+(A) Certified Food Protection Manager,boston,57,58,Food Safety Certification,1317
+Ready-To-Eat Time/Temperature Control for Safety Food  Date Marking,boston,60,61,Time-Temperature Control Procedures,1262
+(B) and (C) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,55,56,Surface Cleanliness and Maintenance,1240
+Outer Openings  Protected,boston,34,35,Outdoor Storage and Protection,1200
+Cutting Surfaces,boston,55,56,Surface Cleanliness and Maintenance,1163
+Handwashing Signage,boston,23,24,Signage Compliance Violations,1126
+Handwashing Cleanser  Availability,boston,48,49,Handwashing Sink Compliance,1103
+Consumption of Animal Foods that are Raw  Undercooked  or Not Otherwise Processed to Eliminate Pathogens,boston,52,53,Food Safety and Preparation,1096
+Miscellaneous Sources of Contamination,boston,58,59,Contamination and Chemical Hazards,1076
+Effectiveness-Hair Restraints,boston,32,33,Personal Hygiene Violations,976
+Clean-up of Vomiting and Diarrheal Events,boston,30,31,Food Hygiene and Sanitation,967
+Manual and Mechanical Warewashing Equipment  Chemical Sanitization-Temperature  pH  Concentration and Hardness,boston,63,64,Warewashing and Sanitization Compliance,943
+(A)(1) Time/Temperature Control for Safety Food  Hot and Cold Holding,boston,60,61,Time-Temperature Control Procedures,906
+Temperature Measuring Devices-Functionality,boston,62,63,Temperature Measurement Compliance,889
+Temperature Measuring Devices  Manual and Mechanical Warewashing,boston,63,64,Warewashing and Sanitization Compliance,879
+Cleaning  Frequency and Restrictions,boston,63,64,Warewashing and Sanitization Compliance,747
+Food Labels,boston,33,34,Food Labeling Compliance,745
+(A)  (B) and (C)(1)  (4)-(16) Demonstration,boston,9,10,Operational Compliance Requirements,723
+Removing Dead or Trapped Birds  Insects  Rodents and other Pest,boston,19,20,Pest Infestation Issues,706
+Cleaning Floors  Dustless Methods,boston,45,46,Sanitation and Cleaning Practices,669
+Maintaining Refuse Areas and Enclosures,boston,35,36,Waste and Drainage Management,658
+Thawing,boston,26,27,Thawing Procedures,607
+Shell stock  Maintaining Identification,boston,6,7,Shellfish Identification and Records,578
+Common Name-Working Containers,boston,33,34,Food Labeling Compliance,577
+Walls and Ceilings  Attachments,boston,28,29,Structural Cleanliness and Maintenance,566
+Cooling  Heating  and Holding Capacities-Equipment,boston,37,38,Cooling and Temperature Control,519
+Outside Receptacles,boston,44,45,Waste Management,515
+Segregation and Location-Distressed Merchandise,boston,59,60,Contamination Prevention,512
+Prohibiting Animals,boston,2,3,Prohibited Practices,511
+Cleaning of Plumbing Fixtures,boston,63,64,Warewashing and Sanitization Compliance,491
+Characteristics-Materials for Construction and Repair,boston,42,43,Maintenance and Repair Compliance,487
+Wall and Ceiling Coverings and Coatings,boston,28,29,Structural Cleanliness and Maintenance,475
+When to Wash,boston,30,31,Food Hygiene and Sanitation,469
+Toilet Room Receptacle  Covered,boston,44,45,Waste Management,445
+Intensity-Lighting,boston,4,5,Lighting Safety Compliance,430
+Service Sink,boston,48,49,Handwashing Sink Compliance,429
+Preventing Contamination from Hands,boston,59,60,Contamination Prevention,414
+Sponges Use Limitation,boston,24,25,Disposable Items and Use Restrictions,413
+Food-Contact Surfaces-Cleanability,boston,55,56,Surface Cleanliness and Maintenance,400
+Discarding or Reconditioning Unsafe  Adulterated  or Contaminated Food,boston,53,54,Food Safety and Sanitation Violations,399
+Conformance with Approved Procedures,boston,13,14,Compliance and Corrections,377
+(A)  (B) and (D) Equipment  Utensils  Linens and Single-Service and Single-Use Articles Storing,boston,56,57,Utensil and Equipment Storage,368
+Compliance with Food Law,boston,50,51,Prohibited Foods Compliance,358
+(A )Cooling Methods,boston,37,38,Cooling and Temperature Control,354
+Cleaning Agents and Sanitizers  Availability,boston,63,64,Warewashing and Sanitization Compliance,353
+Food Storage  Prohibited Areas,boston,59,60,Contamination Prevention,342
+Equipment Food-Contact Surfaces and Utensils-Frequency,boston,55,56,Surface Cleanliness and Maintenance,341
+Mechanical Warewashing Equipment  Hot Water Sanitization Temperatures,boston,63,64,Warewashing and Sanitization Compliance,338
+Drying Mops,boston,45,46,Sanitation and Cleaning Practices,309
+Backflow Prevention  Air Gap,boston,18,19,Backflow Prevention Compliance,306
+Food Temperature Measuring Devices,boston,62,63,Temperature Measurement Compliance,299
+Anti-Choking,boston,41,42,Consumption and Tobacco Use Violations,296
+Cleaning Procedure,boston,45,46,Sanitation and Cleaning Practices,285
+Covering Receptacles,boston,44,45,Waste Management,283
+Receptacles,boston,44,45,Waste Management,280
+Warewashing Machines  Temperature Measuring Devices,boston,63,64,Warewashing and Sanitization Compliance,278
+Light Bulbs  Protective Shielding,boston,4,5,Lighting Safety Compliance,272
+(A) and (C) Good Repair and Calibration-Utensils and Temperature and Pressure Measuring Devices,boston,42,43,Maintenance and Repair Compliance,268
+Cooling,boston,37,38,Cooling and Temperature Control,263
+Safe  Unadulterated and Honestly Presented,boston,59,60,Contamination Prevention,262
+Cleaning Receptacles,boston,44,45,Waste Management,250
+Grease Trap,boston,39,40,Waste Management Violations,243
+Sanitizers  Criteria-Chemicals,boston,63,64,Warewashing and Sanitization Compliance,241
+Storing Maintenance Tools,boston,56,57,Utensil and Equipment Storage,240
+(A) and (C) Equipment  Utensils  Linens and Single-Service and Single-Use Articles-Storing,boston,56,57,Utensil and Equipment Storage,239
+(A) Gloves  Use Limitation,boston,40,41,Personal Hygiene and Equipment Maintenance,236
+Floors  Walls  and Ceilings  Utility Lines,boston,28,29,Structural Cleanliness and Maintenance,229
+Backflow Prevention,boston,18,19,Backflow Prevention Compliance,224
+Backflow Prevention Device  When Required,boston,18,19,Backflow Prevention Compliance,220
+Equipment and Utensils  Air-Drying Required,boston,56,57,Utensil and Equipment Storage,219
+Wood  Use Limitation,boston,0,1,Material Use Limitations,204
+Handwashing Sinks-Location and Placement,boston,48,49,Handwashing Sink Compliance,195
+(B) Cooling Methods,boston,37,38,Cooling and Temperature Control,194
+(A) Ceasing Operations and Reporting,boston,13,14,Compliance and Corrections,192
+Floor and Wall Junctures  Coved  and Enclosed or Sealed,boston,28,29,Structural Cleanliness and Maintenance,186
+Cooking and Baking Equipment,boston,60,61,Time-Temperature Control Procedures,184
+Drain boards,boston,35,36,Waste and Drainage Management,184
+Warewashing Machines  Automatic Dispensing of Detergents and Sanitizers,boston,63,64,Warewashing and Sanitization Compliance,182
+Assignment,boston,12,13,Person in Charge Duties,174
+Handwashing Sinks  Installation,boston,48,49,Handwashing Sink Compliance,174
+Food Preparation,boston,52,53,Food Safety and Preparation,172
+Eating  Drinking  or Using Tobacco,boston,41,42,Consumption and Tobacco Use Violations,166
+Toilet Rooms  Enclosed,boston,36,37,Sanitation and Facilities Compliance,162
+Storage or Display of Food in Contact with Water or Ice,boston,59,60,Contamination Prevention,157
+Hot Water and Chemical-Methods,boston,29,30,Water and Temperature Control,154
+When a HACCP Plan is Required,boston,31,32,HACCP and ROP Compliance Violations,148
+Where to Wash,boston,45,46,Sanitation and Cleaning Practices,148
+Handwashing Sinks-Numbers and Capacities,boston,48,49,Handwashing Sink Compliance,146
+Reheating for Hot Holding,boston,54,55,Temperature Control,136
+Prohibitions,boston,2,3,Prohibited Practices,133
+Standards of Identity,boston,11,12,Employee and Management Responsibilities,132
+Food Display-Preventing Contamination by Consumers,boston,59,60,Contamination Prevention,131
+Storage Refuse  Recyclables and Returnable,boston,53,54,Food Safety and Sanitation Violations,131
+Equipment and Utensils-Durability and Strength,boston,56,57,Utensil and Equipment Storage,130
+Manual Warewashing  Sink Compartment Requirements,boston,48,49,Handwashing Sink Compliance,126
+Capacity-Quantity and Availability,boston,27,28,Storage and Equipment Management,125
+Ventilation Hood Systems  Adequacy,boston,22,23,Ventilation and Lighting Compliance,122
+Separation-Storage,boston,34,35,Outdoor Storage and Protection,120
+Frequency-Removal,boston,63,64,Warewashing and Sanitization Compliance,119
+Package Integrity,boston,46,47,Sourcing and Handling Compliance,116
+Warewashing Machines  Manufacturers’ Operating Instructions,boston,63,64,Warewashing and Sanitization Compliance,115
+Wiping Cloths  Air Drying Location,boston,45,46,Sanitation and Cleaning Practices,113
+Heating  Ventilation  Air Conditioning System Vents,boston,22,23,Ventilation and Lighting Compliance,112
+Warewashing Equipment  Determining Chemical Sanitizer Concentration,boston,63,64,Warewashing and Sanitization Compliance,107
+Washing Fruits and Vegetables,boston,30,31,Food Hygiene and Sanitation,100
+Variance Requirement,boston,3,4,Variance and Specialized Processing Compliance,99
+Clean Condition-Outer Clothing,boston,32,33,Personal Hygiene Violations,99
+Mechanical Warewashing Equipment  Wash Solution Temperature,boston,63,64,Warewashing and Sanitization Compliance,96
+Using Dressing Rooms and Lockers,boston,36,37,Sanitation and Facilities Compliance,92
+Mechanical-Ventilation,boston,22,23,Ventilation and Lighting Compliance,91
+Single-Service and Single-Use Articles-Use Limitations,boston,49,50,Single-Service Article Compliance,87
+Other Liquid Wastes and Rainwater,boston,39,40,Waste Management Violations,87
+Warewashing Machine  Data Plate Operation Specifications,boston,63,64,Warewashing and Sanitization Compliance,87
+Outdoor Storage Surface,boston,34,35,Outdoor Storage and Protection,86
+Warewashing Sinks and Drain boards  Self-Draining,boston,48,49,Handwashing Sink Compliance,84
+Storage-Other Personal Care Items,boston,56,57,Utensil and Equipment Storage,81
+Reduced Oxygen Packaging  Criteria,boston,24,25,Disposable Items and Use Restrictions,76
+Food Contact with Equipment  Utensils  and Linens,boston,55,56,Surface Cleanliness and Maintenance,74
+Kitchenware and Tableware-Preventing Contamination,boston,59,60,Contamination Prevention,72
+Area  Enclosures and Receptacles  Good Repair,boston,27,28,Storage and Equipment Management,72
+Non-Continuous Cooking of Raw Animal Foods,boston,52,53,Food Safety and Preparation,71
+Time as a Public Health Control ( Pf),boston,14,15,Time Control for Safety,69
+Conditions of Use,boston,9,10,Operational Compliance Requirements,69
+Closing Toilet Room Doors,boston,36,37,Sanitation and Facilities Compliance,68
+Warewashing Equipment  Cleaning Frequency,boston,63,64,Warewashing and Sanitization Compliance,56
+Ice Used as Exterior Coolant  Prohibited as Ingredient,boston,15,16,Water and Ice Safety,56
+Pressure,boston,29,30,Water and Temperature Control,56
+Ventilation Hood Systems  Drip Prevention,boston,22,23,Ventilation and Lighting Compliance,56
+Storage of Soiled Linens,boston,56,57,Utensil and Equipment Storage,54
+Rodent Bait Stations,boston,19,20,Pest Infestation Issues,54
+Surface Characteristics-Outdoor Areas,boston,34,35,Outdoor Storage and Protection,53
+Designation-Dressing Areas and Lockers,boston,36,37,Sanitation and Facilities Compliance,51
+(C)(2) (3) and (17) Demonstration,boston,9,10,Operational Compliance Requirements,48
+Warewashing Equipment  Cleaning Agents,boston,63,64,Warewashing and Sanitization Compliance,47
+Insect Control Devices  Design and Installation,boston,20,21,Pest Control Management,47
+Equipment  Clothes Washers  Dryers and Storage Cabinets  Contamination Prevention Location,boston,63,64,Warewashing and Sanitization Compliance,43
+Restriction and Storage-Medicines,boston,10,11,Medicine and First Aid Storage,42
+Raw Animal Foods-Cooking,boston,52,53,Food Safety and Preparation,42
+Ready-To-Eat Time/Temperature Control for Safety Food  Disposition,boston,60,61,Time-Temperature Control Procedures,41
+(A) Consumer Self-Service Operations,boston,49,50,Single-Service Article Compliance,40
+Frozen Food,boston,61,62,Holding and Cooking Temperatures,38
+Exterior Walls and Roofs  Protective Barrier,boston,28,29,Structural Cleanliness and Maintenance,37
+Using Drain Plugs,boston,39,40,Waste Management Violations,36
+CIP Equipment,boston,21,22,Equipment Installation and Maintenance,36
+Temperature Measuring Devices  Food-Accuracy,boston,62,63,Temperature Measurement Compliance,36
+Restricted Use Pesticides  Criteria,boston,43,44,Chemical and Safety Violations,36
+Before Use After Cleaning,boston,45,46,Sanitation and Cleaning Practices,35
+Identifying Information  Prominence-Original Containers,boston,33,34,Food Labeling Compliance,34
+Handwashing Aids and Devices  Use Restrictions,boston,48,49,Handwashing Sink Compliance,34
+Outdoor Enclosure,boston,34,35,Outdoor Storage and Protection,33
+Manual Warewashing Equipment  Hot Water Sanitization Temperatures,boston,63,64,Warewashing and Sanitization Compliance,32
+Storage Areas  Rooms and Receptacles  Capacity and Availability,boston,27,28,Storage and Equipment Management,32
+Dispensing Equipment  Protection of Equipment and Food,boston,59,60,Contamination Prevention,31
+Warewashing Equipment  Clean Solutions,boston,63,64,Warewashing and Sanitization Compliance,31
+Records  Creation  & Retention,boston,56,57,Utensil and Equipment Storage,30
+Clean condition-Hands and Arms,boston,40,41,Personal Hygiene and Equipment Maintenance,30
+Rinsing Procedures,boston,63,64,Warewashing and Sanitization Compliance,30
+Clean Linens,boston,45,46,Sanitation and Cleaning Practices,29
+Shucked Shellfish  Packaging and Identification,boston,6,7,Shellfish Identification and Records,28
+Preset Tableware,boston,56,57,Utensil and Equipment Storage,28
+Other Forms of Information,boston,7,8,Nutritional Information Disclosure Violations,27
+Conveying Sewage,boston,39,40,Waste Management Violations,27
+Floor Covering  Mats and Duckboards,boston,28,29,Structural Cleanliness and Maintenance,26
+Warewashing Machines  Flow Pressure Device,boston,63,64,Warewashing and Sanitization Compliance,26
+(B) Good Repair and Calibration,boston,42,43,Maintenance and Repair Compliance,26
+Warewashing Sinks  Use Limitation,boston,48,49,Handwashing Sink Compliance,25
+Variances,boston,3,4,Variance and Specialized Processing Compliance,25
+Outside Storage Prohibitions,boston,34,35,Outdoor Storage and Protection,24
+Condiments  Protection,boston,59,60,Contamination Prevention,24
+Honestly Presented,boston,1,2,Signage and Presentation Compliance,23
+Restriction-Presence and Use,boston,9,10,Operational Compliance Requirements,23
+Molluscan Shellfish  Original Container,boston,33,34,Food Labeling Compliance,23
+Toilets and Urinals,boston,36,37,Sanitation and Facilities Compliance,23
+Characteristics-Single-Service and Single-Use,boston,49,50,Single-Service Article Compliance,22
+Toilet Tissue  Availability,boston,36,37,Sanitation and Facilities Compliance,22
+Parasite Destruction,boston,19,20,Pest Infestation Issues,22
+Prohibition-Jewelry,boston,2,3,Prohibited Practices,22
+(A) & (C) Responsibility of Permit Holder  Person in Charge  and Conditional Employees,boston,11,12,Employee and Management Responsibilities,21
+Pressure Measuring Devices  Mechanical Warewashing Equipment,boston,63,64,Warewashing and Sanitization Compliance,21
+Manual Warewashing Equipment  Chemical Sanitization Using Detergent-Sanitizers,boston,63,64,Warewashing and Sanitization Compliance,20
+Kick Plates Removable,boston,40,41,Personal Hygiene and Equipment Maintenance,20
+uspension of Permit / Emergency Closure without a Prior Hearing,boston,13,14,Compliance and Corrections,19
+Floor Carpeting  Restrictions and Installation,boston,9,10,Operational Compliance Requirements,19
+Cleaning Maintenance Tools  Preventing Contamination,boston,63,64,Warewashing and Sanitization Compliance,19
+Standards-Quality,boston,42,43,Maintenance and Repair Compliance,18
+Shells  Use Limitations,boston,6,7,Shellfish Identification and Records,18
+Designated Areas-Employee Accommodations for eating / drinking/smoking,boston,41,42,Consumption and Tobacco Use Violations,17
+Shell stock Identification,boston,6,7,Shellfish Identification and Records,17
+Equipment Compartments  Drainage,boston,35,36,Waste and Drainage Management,17
+Temperature Measuring Devices  Ambient Air and Water-Accuracy,boston,62,63,Temperature Measurement Compliance,17
+Dry Cleaning-Methods,boston,45,46,Sanitation and Cleaning Practices,17
+(O) Person in Charge-Duties,boston,12,13,Person in Charge Duties,16
+uspension of Permit with Notice,boston,11,12,Employee and Management Responsibilities,15
+Storage Areas  Redeeming Machines  Receptacles and Waste Handling Units  Location,boston,27,28,Storage and Equipment Management,14
+Separation-Storage and Display  Stock and Retail Sale,boston,34,35,Outdoor Storage and Protection,14
+Vended Time/Temperature Control for Safety Food  Original Container,boston,60,61,Time-Temperature Control Procedures,13
+Walls and Ceilings  Studs  Joists  and Rafters,boston,28,29,Structural Cleanliness and Maintenance,13
+Backflow Prevention Device  Design Standard,boston,18,19,Backflow Prevention Compliance,13
+Exclusions & Restrictions,boston,9,10,Operational Compliance Requirements,13
+Ice,boston,15,16,Water and Ice Safety,13
+Linens and Napkins  Use Limitations,boston,56,57,Utensil and Equipment Storage,13
+Bottled Drinking Water,boston,15,16,Water and Ice Safety,12
+(B) & (E) Responsibility of Permit Holder  Person in Charge  and Conditional Employees (Pf ),boston,11,12,Employee and Management Responsibilities,12
+Preventing Contamination When Tasting,boston,59,60,Contamination Prevention,12
+Warewashing Machines  Internal Baffles,boston,63,64,Warewashing and Sanitization Compliance,12
+Time as a Public Health Control,boston,14,15,Time Control for Safety,12
+Single-Service and Single-Use Articles  Required Use,boston,49,50,Single-Service Article Compliance,12
+(B) and (C) Consumer Self-Service Operations,boston,49,50,Single-Service Article Compliance,12
+Manual Warewashing Equipment  Wash Solution Temperature,boston,63,64,Warewashing and Sanitization Compliance,11
+Approved System and Cleanable Fixtures,boston,38,39,Plumbing and Sewage Issues,11
+Restriction and Storage-Medicines ( Pf),boston,10,11,Medicine and First Aid Storage,11
+Can Openers,boston,40,41,Personal Hygiene and Equipment Maintenance,11
+Preclearing,boston,26,27,Thawing Procedures,10
+Outdoor Walking and Driving Surfaces  Graded to Drain,boston,35,36,Waste and Drainage Management,10
+Nonstick Coatings  Use Limitation,boston,0,1,Material Use Limitations,10
+(B)-(D) Gloves  Use Limitations,boston,40,41,Personal Hygiene and Equipment Maintenance,10
+Poisonous or Toxic Material Containers-Container Prohibitions,boston,58,59,Contamination and Chemical Hazards,10
+Tracking Powders  Pest Control and Monitoring,boston,20,21,Pest Control Management,10
+Conveniently Located,boston,36,37,Sanitation and Facilities Compliance,9
+Mechanical Washing,boston,63,64,Warewashing and Sanitization Compliance,9
+Flushing a Waste Retention Tank,boston,39,40,Waste Management Violations,8
+Equipment Openings  Closures and Deflectors,boston,21,22,Equipment Installation and Maintenance,8
+Treating Juice,boston,5,6,Juice Handling Violations,8
+Additives,boston,46,47,Sourcing and Handling Compliance,8
+Washing  Procedures for Alternative Manual Warewashing Equipment,boston,63,64,Warewashing and Sanitization Compliance,8
+Outdoor refuse Areas  Curbed and Graded to Drain,boston,35,36,Waste and Drainage Management,8
+Cleaning Implements and Supplies,boston,63,64,Warewashing and Sanitization Compliance,8
+Absorbent Materials on Floors  Use Limitation,boston,28,29,Structural Cleanliness and Maintenance,8
+Handling Prohibition-Animals,boston,2,3,Prohibited Practices,7
+Rinsing Equipment and Utensils after Cleaning and Sanitizing,boston,63,64,Warewashing and Sanitization Compliance,7
+Prohibiting a Cross Connection,boston,2,3,Prohibited Practices,7
+Backflow Prevention Device  Location,boston,18,19,Backflow Prevention Compliance,7
+Protective Cover or Device,boston,4,5,Lighting Safety Compliance,7
+Juice Treated-Commercially Processed,boston,5,6,Juice Handling Violations,6
+Refrigerated Medicines  Storage,boston,10,11,Medicine and First Aid Storage,6
+Maintenance-Fingernails,boston,32,33,Personal Hygiene Violations,6
+Food-Contact Surfaces-Lubricating and Reassembling,boston,55,56,Surface Cleanliness and Maintenance,6
+Microwave Ovens,boston,62,63,Temperature Measurement Compliance,6
+Conditioning Device  Design,boston,18,19,Backflow Prevention Compliance,5
+Receptacles or Vehicles,boston,44,45,Waste Management,5
+Manual Warewashing Equipment  Heaters and Baskets,boston,63,64,Warewashing and Sanitization Compliance,5
+Documentation of Proposed Variance and Justification,boston,3,4,Variance and Specialized Processing Compliance,5
+(A)  (B)  (C)  (E) and (G) Pasteurized Foods  Prohibited Re-Service  and Prohibited Food,boston,50,51,Prohibited Foods Compliance,5
+Returned Food and Re-service of Food,boston,53,54,Food Safety and Sanitation Violations,4
+Soiled and Clean Tableware,boston,55,56,Surface Cleanliness and Maintenance,4
+Storage-First Aid Supplies,boston,10,11,Medicine and First Aid Storage,4
+Hot Oil Filtering Equipment,boston,29,30,Water and Temperature Control,4
+Scheduling Inspection and Service for a Water System Device,boston,63,64,Warewashing and Sanitization Compliance,4
+Chemicals for Washing  Treatment  Storage and Processing Fruits and Vegetables  Criteria,boston,30,31,Food Hygiene and Sanitation,4
+Ice Units  Separation of Drains,boston,15,16,Water and Ice Safety,4
+Beverage Tubing  Separation,boston,5,6,Juice Handling Violations,4
+System Flushing and Sanitization-Operation and Maintenance,boston,63,64,Warewashing and Sanitization Compliance,4
+Fixed Equipment  Elevation or Sealing,boston,21,22,Equipment Installation and Maintenance,4
+Removal  Adjustment  or Retention of Exclusions & Restrictions,boston,9,10,Operational Compliance Requirements,4
+Outdoor Food Vending Areas. Overhead Protection,boston,59,60,Contamination Prevention,4
+Shell stock  Condition,boston,6,7,Shellfish Identification and Records,3
+Time/Temperature Control for Safety Food  Slacking,boston,60,61,Time-Temperature Control Procedures,3
+Conditioning Device  Location,boston,18,19,Backflow Prevention Compliance,3
+Protection from Unapproved Additives,boston,46,47,Sourcing and Handling Compliance,2
+Backflow Prevention Device  Carbonator,boston,18,19,Backflow Prevention Compliance,2
+Outdoor Servicing Areas  Overhead Protection,boston,21,22,Equipment Installation and Maintenance,2
+Approved Sewage Disposal System,boston,38,39,Plumbing and Sewage Issues,2
+Using a Pump and Hoses  Backflow Prevention,boston,18,19,Backflow Prevention Compliance,2
+Fish,boston,2,3,Prohibited Practices,2
+Living or Sleeping Quarters  Separation,boston,36,37,Sanitation and Facilities Compliance,2
+Specifications-Laundering Frequency,boston,63,64,Warewashing and Sanitization Compliance,2
+Mechanical Warewashing Equipment  Sanitization Pressure,boston,63,64,Warewashing and Sanitization Compliance,2
+Discharges from the Eyes  Nose  and Mouth,boston,22,23,Ventilation and Lighting Compliance,2
+Private Homes and Living or Sleeping Quarters  Use Prohibition,boston,2,3,Prohibited Practices,2
+Cast Iron  Use Limitations,boston,0,1,Material Use Limitations,2
+Galvanized Metal  Use Limitation,boston,0,1,Material Use Limitations,2
+Case Lot Handling Apparatuses  Movability,boston,27,28,Storage and Equipment Management,2
+Hand Antiseptics,boston,40,41,Personal Hygiene and Equipment Maintenance,2
+(D) and (F) Responsibility of Permit Holder  Person in Charge  and Conditional Employees Responsibility of the PIC to Exclude or Restrict,boston,11,12,Employee and Management Responsibilities,2
+Eggs,boston,51,52,Raw and Unpasteurized Foods,2
+Pasteurized Eggs Substituted for Raw Eggs for Certain Recipes,boston,51,52,Raw and Unpasteurized Foods,2
+Using Clean Tableware for Second Portions and Refills,boston,56,57,Utensil and Equipment Storage,2
+(D) Pasteurized Foods  Prohibited Re-Service  and Prohibited Foods,boston,50,51,Prohibited Foods Compliance,2
+Prevention of Contamination from Hands,boston,40,41,Personal Hygiene and Equipment Maintenance,1
+Consumer Advisories,boston,57,58,Food Safety Certification,1
+Hot and Cold Water,boston,29,30,Water and Temperature Control,1
+Installed and Maintained,boston,42,43,Maintenance and Repair Compliance,1
+Fixed Equipment  Spacing or Sealing-Installation,boston,21,22,Equipment Installation and Maintenance,1
+Temperature,boston,62,63,Temperature Measurement Compliance,1
+Spoilage Unsafe Food,boston,59,60,Contamination Prevention,1
+Cold Holding,boston,54,55,Temperature Control,1
+Food Protection,boston,59,60,Contamination Prevention,1
+Non-Food Contact Surfaces Clean,boston,55,56,Surface Cleanliness and Maintenance,1
+Outside Storage Improperly Maintained,boston,34,35,Outdoor Storage and Protection,1
+Improper Maintenance of Floors,boston,28,29,Structural Cleanliness and Maintenance,1
+Premises Maintained,boston,36,37,Sanitation and Facilities Compliance,1
+"PHYSICAL FACILITIES INSTALLED, MAINTAINED & CLEAN",chicago,36,37,Sanitation and Facilities Compliance,28536
+"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,55,56,Surface Cleanliness and Maintenance,15332
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,55,56,Surface Cleanliness and Maintenance,12610
+ADEQUATE HANDWASHING SINKS PROPERLY SUPPLIED AND ACCESSIBLE,chicago,48,49,Handwashing Sink Compliance,9326
+PLUMBING INSTALLED; PROPER BACKFLOW DEVICES,chicago,18,19,Backflow Prevention Compliance,9096
+ADEQUATE VENTILATION & LIGHTING; DESIGNATED AREAS USED,chicago,22,23,Ventilation and Lighting Compliance,8742
+"INSECTS, RODENTS, & ANIMALS NOT PRESENT",chicago,19,20,Pest Infestation Issues,8211
+ALLERGEN TRAINING AS REQUIRED,chicago,25,26,Allergen Awareness Compliance,8108
+ALL FOOD EMPLOYEES HAVE FOOD HANDLER TRAINING,chicago,57,58,Food Safety Certification,6027
+FOOD PROPERLY LABELED; ORIGINAL CONTAINER,chicago,33,34,Food Labeling Compliance,5272
+"TOILET FACILITIES: PROPERLY CONSTRUCTED, SUPPLIED, & CLEANED",chicago,36,37,Sanitation and Facilities Compliance,5231
+"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",chicago,59,60,Contamination Prevention,5211
+CITY OF CHICAGO FOOD SERVICE SANITATION CERTIFICATE,chicago,57,58,Food Safety Certification,4530
+FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,55,56,Surface Cleanliness and Maintenance,4461
+THERMOMETERS PROVIDED & ACCURATE,chicago,62,63,Temperature Measurement Compliance,3083
+"WAREWASHING FACILITIES: INSTALLED, MAINTAINED & USED; TEST STRIPS",chicago,63,64,Warewashing and Sanitization Compliance,2954
+PROPER COLD HOLDING TEMPERATURES,chicago,54,55,Temperature Control,2901
+WIPING CLOTHS: PROPERLY USED & STORED,chicago,45,46,Sanitation and Cleaning Practices,2856
+PREVIOUS CORE VIOLATION CORRECTED,chicago,13,14,Compliance and Corrections,2706
+PERSONAL CLEANLINESS,chicago,32,33,Personal Hygiene Violations,2439
+"PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",chicago,12,13,Person in Charge Duties,2253
+IN-USE UTENSILS: PROPERLY STORED,chicago,56,57,Utensil and Equipment Storage,2181
+GARBAGE & REFUSE PROPERLY DISPOSED; FACILITIES MAINTAINED,chicago,39,40,Waste Management Violations,2172
+"MANAGEMENT, FOOD EMPLOYEE AND CONDITIONAL EMPLOYEE; KNOWLEDGE, RESPONSIBILITIES AND REPORTING",chicago,11,12,Employee and Management Responsibilities,2149
+PROPER COOLING METHODS USED; ADEQUATE EQUIPMENT FOR TEMPERATURE CONTROL,chicago,37,38,Cooling and Temperature Control,1884
+"UTENSILS, EQUIPMENT & LINENS: PROPERLY STORED, DRIED, & HANDLED",chicago,56,57,Utensil and Equipment Storage,1866
+SINGLE-USE/SINGLE-SERVICE ARTICLES: PROPERLY STORED & USED,chicago,49,50,Single-Service Article Compliance,1864
+PROCEDURES FOR RESPONDING TO VOMITING AND DIARRHEAL EVENTS,chicago,53,54,Food Safety and Sanitation Violations,1394
+CONSUMER ADVISORY PROVIDED FOR RAW/UNDERCOOKED FOOD,chicago,52,53,Food Safety and Preparation,1254
+SEWAGE & WASTE WATER PROPERLY DISPOSED,chicago,39,40,Waste Management Violations,783
+MISCELLANEOUS / PUBLIC HEALTH ORDERS,chicago,13,14,Compliance and Corrections,735
+PROPER DATE MARKING AND DISPOSITION,chicago,1,2,Signage and Presentation Compliance,644
+APPROVED THAWING METHODS USED,chicago,26,27,Thawing Procedures,638
+SUMMARY REPORT DISPLAYED AND VISIBLE TO THE PUBLIC,chicago,7,8,Nutritional Information Disclosure Violations,627
+PREVIOUS PRIORITY FOUNDATION VIOLATION CORRECTED,chicago,13,14,Compliance and Corrections,609
+PROPER HOT HOLDING TEMPERATURES,chicago,54,55,Temperature Control,571
+HOT & COLD WATER AVAILABLE; ADEQUATE PRESSURE,chicago,29,30,Water and Temperature Control,444
+HANDS CLEAN & PROPERLY WASHED,chicago,45,46,Sanitation and Cleaning Practices,371
+"PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",chicago,41,42,Consumption and Tobacco Use Violations,364
+COMPLIANCE WITH VARIANCE/SPECIALIZED PROCESS/HACCP,chicago,3,4,Variance and Specialized Processing Compliance,318
+NO BARE HAND CONTACT WITH RTE FOOD OR A PRE-APPROVED ALTERNATIVE PROCEDURE PROPERLY ALLOWED,chicago,57,58,Food Safety Certification,283
+"REQUIRED RECORDS AVAILABLE: SHELLSTOCK TAGS, PARASITE DESTRUCTION",chicago,6,7,Shellfish Identification and Records,281
+FOOD SEPARATED AND PROTECTED,chicago,59,60,Contamination Prevention,229
+"TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, & USED",chicago,58,59,Contamination and Chemical Hazards,224
+VARIANCE OBTAINED FOR SPECIALIZED PROCESSING METHODS,chicago,3,4,Variance and Specialized Processing Compliance,213
+GLOVES USED PROPERLY,chicago,40,41,Personal Hygiene and Equipment Maintenance,115
+COMPLIANCE WITH CLEAN INDOOR AIR ORDINANCE,chicago,22,23,Ventilation and Lighting Compliance,75
+"FOOD IN GOOD CONDITION, SAFE, & UNADULTERATED",chicago,59,60,Contamination Prevention,71
+PROPER COOLING TIME AND TEMPERATURE,chicago,37,38,Cooling and Temperature Control,62
+FOOD OBTAINED FROM APPROVED SOURCE,chicago,46,47,Sourcing and Handling Compliance,46
+TIME AS A PUBLIC HEALTH CONTROL; PROCEDURES & RECORDS,chicago,14,15,Time Control for Safety,34
+PROPER REHEATING PROCEDURES FOR HOT HOLDING,chicago,54,55,Temperature Control,20
+REMOVAL OF SUSPENSION SIGN,chicago,23,24,Signage Compliance Violations,19
+"PROPER DISPOSITION OF RETURNED, PREVIOUSLY SERVED, RECONDITIONED & UNSAFE FOOD",chicago,53,54,Food Safety and Sanitation Violations,9
+WASHING FRUITS & VEGETABLES,chicago,30,31,Food Hygiene and Sanitation,7
+FOOD ADDITIVES: APPROVED AND PROPERLY USED,chicago,46,47,Sourcing and Handling Compliance,7
+WATER & ICE FROM APPROVED SOURCE,chicago,15,16,Water and Ice Safety,5
+"NO DISCHARGE FROM EYES, NOSE, AND MOUTH",chicago,24,25,Disposable Items and Use Restrictions,5
+FOOD RECEIVED AT PROPER TEMPERATURE,chicago,61,62,Holding and Cooking Temperatures,4
+PROPER USE OF RESTRICTION AND EXCLUSION,chicago,9,10,Operational Compliance Requirements,3
+PLANT FOOD PROPERLY COOKED FOR HOT HOLDING,chicago,61,62,Holding and Cooking Temperatures,3
+PROPER COOKING TIME & TEMPERATURES,chicago,60,61,Time-Temperature Control Procedures,3
+PASTEURIZED EGGS USED WHERE REQUIRED,chicago,51,52,Raw and Unpasteurized Foods,2
+PASTEURIZED FOODS USED; PROHIBITED FOODS NOT OFFERED,chicago,50,51,Prohibited Foods Compliance,2
+"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,55,56,Surface Cleanliness and Maintenance,36700
+"Establishment is not free of harborage or conditions conducive to rodents, insects or other pests.",nyc,19,20,Pest Infestation Issues,24181
+"Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.",nyc,55,56,Surface Cleanliness and Maintenance,17463
+Anti-siphonage or back-flow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. Condensation or liquid waste improperly disposed of.,nyc,38,39,Plumbing and Sewage Issues,16641
+Cold TCS food item held above 41 °F; smoked or processed fish held above 38 °F; intact raw eggs held above 45 °F; or reduced oxygen packaged (ROP) TCS foods held above required temperatures except during active necessary preparation.,nyc,61,62,Holding and Cooking Temperatures,16507
+Evidence of mice or live mice in establishment's food or non-food areas.,nyc,19,20,Pest Infestation Issues,14461
+"Food, supplies, or equipment not protected from potential source of contamination during storage, preparation, transportation, display, service or from customer’s refillable, reusable container. Condiments not in single-service containers or dispensed directly by the vendor.",nyc,59,60,Contamination Prevention,14283
+Hot TCS food item not held at or above 140 °F.,nyc,61,62,Holding and Cooking Temperatures,13899
+"Filth flies or food/refuse/sewage associated with (FRSA) flies or other nuisance pests in establishment’s food and/or non-food areas. FRSA flies include house flies, blow flies, bottle flies, flesh flies, drain flies, Phorid flies and fruit flies.",nyc,19,20,Pest Infestation Issues,11248
+Food Protection Certificate (FPC) not held by manager or supervisor of food operations.,nyc,57,58,Food Safety Certification,7177
+"Dishwashing and ware washing: Cleaning and sanitizing of tableware, including dishes, utensils, and equipment deficient.",nyc,63,64,Warewashing and Sanitization Compliance,6527
+"Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.",nyc,52,53,Food Safety and Preparation,5749
+Live roaches in facility's food or non-food area.,nyc,19,20,Pest Infestation Issues,5100
+"No hand washing facility in or adjacent to toilet room or within 25 feet of a food preparation, food service or ware washing area. Hand washing facility not accessible, obstructed or used for non-hand washing purposes. No hot and cold running water or water at inadequate pressure. No soap or acceptable hand-drying device.",nyc,36,37,Sanitation and Facilities Compliance,4805
+"Pesticide not properly labeled or used by unlicensed individual. Pesticide, other toxic chemical improperly used/stored. Unprotected, unlocked bait station used.",nyc,43,44,Chemical and Safety Violations,4688
+"Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.",nyc,58,59,Contamination and Chemical Hazards,4667
+"Wiping cloths not stored clean and dry, or in a sanitizing solution, between uses.",nyc,45,46,Sanitation and Cleaning Practices,4665
+Personal cleanliness is inadequate. Outer garment soiled with possible contaminant. Effective hair restraint not worn where required. Jewelry worn on hands or arms. Fingernail polish worn or fingernails not kept clean and trimmed.,nyc,32,33,Personal Hygiene Violations,4620
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,55,56,Surface Cleanliness and Maintenance,3832
+"Single service article not provided. Single service article reused or not protected from contamination when transported, stored, dispensed. Drinking straws not completely enclosed in wrapper or dispensed from a sanitary device.",nyc,24,25,Disposable Items and Use Restrictions,3219
+Evidence of rats or live rats in establishment's food or non-food areas.,nyc,19,20,Pest Infestation Issues,2781
+Thawing procedure improper.,nyc,26,27,Thawing Procedures,2663
+"After cooking or removal from hot holding, TCS food not cooled by an approved method whereby the internal temperature is reduced from 140 °F to 70 °F or less within 2 hours, and from 70 °F to 41 °F or less within 4 additional hours.",nyc,61,62,Holding and Cooking Temperatures,2450
+"Accurate thermometer not provided or properly located in refrigerated, cold storage or hot holding equipment",nyc,62,63,Temperature Measurement Compliance,2193
+"“Choking first aid” poster not posted. “Alcohol and Pregnancy” warning sign not posted. Resuscitation equipment: exhaled air resuscitation masks (adult & pediatric), latex gloves, sign not posted.",nyc,17,18,Signage and Compliance Violations,2082
+Current letter grade or Grade Pending card not posted,nyc,1,2,Signage and Presentation Compliance,2078
+Wash hands sign not posted near or above hand washing sink.,nyc,23,24,Signage Compliance Violations,1974
+"Properly scaled and calibrated thermometer or thermocouple not provided or not readily accessible in food preparation and hot/cold holding areas to measure temperatures of TCS foods during cooking, cooling, reheating, and holding.",nyc,61,62,Holding and Cooking Temperatures,1949
+"Food, supplies, and equipment not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,59,60,Contamination Prevention,1807
+Contract with a pest management professional not in place. Record of extermination activities not kept on premises.,nyc,20,21,Pest Control Management,1707
+Failure to post or conspicuously post healthy eating information,nyc,7,8,Nutritional Information Disclosure Violations,1599
+"Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,55,56,Surface Cleanliness and Maintenance,1554
+"Mechanical or natural ventilation not provided, inadequate, improperly installed, in disrepair or fails to prevent and control excessive build-up of grease, heat, steam condensation, vapors, odors, smoke or fumes.",nyc,22,23,Ventilation and Lighting Compliance,1503
+"Garbage receptacle not pest or water resistant, with tight-fitting lids, and covered except while in active use. Garbage receptacle and cover not cleaned after emptying and prior to reuse. Garbage, refuse and other solid and liquid waste not collected, stored, removed and disposed of so as to prevent a nuisance.",nyc,39,40,Waste Management Violations,1366
+Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,nyc,19,20,Pest Infestation Issues,1164
+Food worker/food vendor does not use utensil or other barrier to eliminate bare hand contact with food that will not receive adequate additional heat treatment.,nyc,55,56,Surface Cleanliness and Maintenance,1109
+"Tobacco or electronic cigarette use, eating, or drinking from open container in food preparation, food storage or dishwashing area.",nyc,41,42,Consumption and Tobacco Use Violations,1066
+"Toilet facility not maintained or provided with toilet paper, waste receptacle or self-closing door.",nyc,36,37,Sanitation and Facilities Compliance,1047
+"Food, prohibited, from unapproved or unknown source, home canned or home prepared. Animal slaughtered, butchered or dressed (eviscerated, skinned) in establishment. Reduced Oxygen Packaged (ROP) fish not frozen before processing. ROP food prepared on premises transported to another site.",nyc,59,60,Contamination Prevention,1031
+"Providing single-use, non-compostable plastic straws to customers without customer request (including providing such straws at a self-serve station)",nyc,24,25,Disposable Items and Use Restrictions,973
+No approved written standard operating procedure for avoiding contamination by refillable returnable containers.,nyc,59,60,Contamination Prevention,906
+Food allergy information poster not conspicuously posted where food is being prepared or processed by food workers.,nyc,25,26,Allergen Awareness Compliance,837
+"Insufficient or no hot holding, cold storage or cold holding equipment provided to maintain Time/Temperature Control for Safety Foods (TCS) at required temperatures",nyc,60,61,Time-Temperature Control Procedures,796
+Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.,nyc,61,62,Holding and Cooking Temperatures,699
+"Food not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,59,60,Contamination Prevention,673
+"Swollen, leaking, rusted or otherwise damaged canned food to be returned to distributor not segregated from intact product and clearly labeled DO NOT USE",nyc,47,48,Damaged Canned Food Handling,662
+Hot food item not held at or above 140º F.,nyc,61,62,Holding and Cooking Temperatures,597
+Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.,nyc,38,39,Plumbing and Sewage Issues,588
+"Nuisance created or allowed to exist. Facility not free from unsafe, hazardous, offensive or annoying condition.",nyc,43,44,Chemical and Safety Violations,506
+"The original nutrition fact labels or ingredient label for a cooking oil, shortening or margarine or food item sold in bulk, or acceptable manufacturer’s documentation not maintained on site.",nyc,33,34,Food Labeling Compliance,474
+Failure to display required signage about plastic straw availability,nyc,24,25,Disposable Items and Use Restrictions,449
+"Food adulterated or misbranded. Adulterated or misbranded food possessed, being manufactured, produced, packed, sold, offered for sale, delivered or given away",nyc,53,54,Food Safety and Sanitation Violations,447
+"Food contact surface, refillable, reusable containers, or equipment improperly constructed, placed or maintained. Unacceptable material used. Culinary sink or other acceptable method not provided for washing food.",nyc,55,56,Surface Cleanliness and Maintenance,391
+Live animal other than fish in tank or service animal present in facility’s food or non-food area.,nyc,19,20,Pest Infestation Issues,376
+Food Protection Certificate not held by supervisor of food operations.,nyc,57,58,Food Safety Certification,313
+"Juice packaged on premises with no or incomplete label, no warning statement",nyc,5,6,Juice Handling Violations,297
+Hot TCS food item that has been cooked and cooled is being held for service without first being reheated to 165º F or above within 2 hours.,nyc,61,62,Holding and Cooking Temperatures,292
+"Lighting fixture located over, by or within food storage, preparation, service or display facility, and facility where utensils and equipment are cleaned and stored, which may shatter due to extreme heat, temperature changes or accidental contact; not fitted with shatterproof bulb or shielded and encased, with end caps or other device.",nyc,4,5,Lighting Safety Compliance,279
+"Failure to maintain a sufficient supply of single-use, non-compostable plastic straws.",nyc,24,25,Disposable Items and Use Restrictions,278
+Proper sanitization not provided for utensil ware washing operation.,nyc,63,64,Warewashing and Sanitization Compliance,232
+Personal cleanliness inadequate. Outer garment soiled with possible contaminant. Effective hair restraint not worn in an area where food is prepared.,nyc,32,33,Personal Hygiene Violations,223
+"Sewage disposal system is not provided, improper, inadequate or unapproved.",nyc,38,39,Plumbing and Sewage Issues,213
+"Caloric content not posted on menus, menu boards or food tags, in a food service establishment that is 1 of 15 or more outlets operating the same type of business nationally under common ownership or control, or as a franchise or doing business under the same name, for each menu item that is served in portions, the size and content of which are standardized.",nyc,7,8,Nutritional Information Disclosure Violations,211
+"Time/Temperature Control for Safety (TCS) food not cooked to required minimum internal temperature.   • Poultry, poultry parts, ground and comminuted poultry, all stuffing containing poultry, meats, fish or ratites to or above 165 °F for 15 seconds with no interruption of the cooking process   • Ground meat, and food containing ground and comminuted meat, to or above 158 °F for 15 seconds with no interruption of the cooking process, except per individual customer request  • Pork, any food containing pork to or above 150 °F for 15 seconds  • Mechanically tenderized or injected meats to or above 155 °F.  • Whole meat roasts and beef steak to or above required temperature and time except per individual customer request  • Raw animal foods cooked in microwave to or above165 °F, covered, rotated or stirred   • All other foods to or above 140 °F for 15 seconds; shell eggs to or above 145 °F for 15 seconds except per individual customer request.",nyc,61,62,Holding and Cooking Temperatures,209
+"Lighting inadequate; permanent lighting not provided in food preparation areas, ware washing areas, and storage rooms. Shatterproof bulb or shield to prevent broken glass from falling into food or onto surfaces, not installed.",nyc,4,5,Lighting Safety Compliance,208
+Food Protection Certificate not available for inspection,nyc,57,58,Food Safety Certification,205
+Pesticide use not in accordance with label or applicable laws. Prohibited chemical used/stored. Open bait station used.,nyc,43,44,Chemical and Safety Violations,205
+"Food preparation area, food storage area, or other area used by employees or patrons, contaminated by sewage or liquid waste.",nyc,59,60,Contamination Prevention,199
+"Shellfish not from approved source, not or improperly tagged/labeled; tags not retained for 90 days.",nyc,43,44,Chemical and Safety Violations,195
+"Toilet facility not provided for employees or for patrons when required. Shared patron-employee toilet accessed through kitchen, food prep or storage area or utensil washing area.",nyc,36,37,Sanitation and Facilities Compliance,179
+Food contact surface not properly maintained.,nyc,55,56,Surface Cleanliness and Maintenance,173
+Toxic chemical or pesticide improperly stored or used such that food contamination may occur.,nyc,58,59,Contamination and Chemical Hazards,161
+"Food not cooled by an approved method whereby the internal product temperature is reduced from 140º F to 70º F or less within 2  hours, and from 70º F to 41º F or less within 4 additional hours.",nyc,61,62,Holding and Cooking Temperatures,157
+Equipment used for ROP not approved by the Department,nyc,31,32,HACCP and ROP Compliance Violations,154
+TCS food removed from cold holding or prepared from or combined with ingredients at room temperature not cooled by an approved method to 41 °F or below within 4 hours.,nyc,61,62,Holding and Cooking Temperatures,149
+Sign prohibiting smoking or using electronic cigarettes not conspicuously posted.,nyc,17,18,Signage and Compliance Violations,148
+"Meat, fish, molluscan shellfish, unpasteurized raw shell eggs, poultry or other TCS offered or served raw or undercooked and written notice not provided to consumer.",nyc,51,52,Raw and Unpasteurized Foods,146
+Hand washing facility not provided in or near food preparation area and toilet room. Hot and cold running water at adequate pressure to enable cleanliness of employees not provided at facility. Soap and an acceptable hand-drying device not provided.,nyc,48,49,Handwashing Sink Compliance,143
+Wiping cloths soiled or not stored in sanitizing solution.,nyc,45,46,Sanitation and Cleaning Practices,137
+"Flavored tobacco products sold, offered for sale",nyc,16,17,Tobacco and Smoking Regulations,137
+HACCP plan not approved or approved HACCP plan not maintained on premises.,nyc,31,32,HACCP and ROP Compliance Violations,136
+"Food containing a prohibited substance held, kept, offered, prepared, processed, packaged, or served.",nyc,50,51,Prohibited Foods Compliance,128
+"Additional nutritional information statement not posted, or additional nutritional information not provided",nyc,7,8,Nutritional Information Disclosure Violations,125
+"Required succinct nutritional statements not posted on menu(s) for adults and children (2,000 calories per day for adults)",nyc,7,8,Nutritional Information Disclosure Violations,114
+"Food worker/food vendor does not wash hands thoroughly after using the toilet, or after coughing, sneezing, smoking, eating, preparing raw foods or otherwise contaminating hands or does not change gloves when required; Worker fails to refrain from smoking or being fully clothed in clean outer garments.",nyc,55,56,Surface Cleanliness and Maintenance,112
+"Single service item reused, improperly stored, dispensed; not used when required.",nyc,49,50,Single-Service Article Compliance,108
+Workplace SFAA policy not prominently posted in workplace.,nyc,17,18,Signage and Compliance Violations,107
+Harmful noxious gas or vapor detected. Carbon Monoxide (CO) level exceeds nine (9) ppm,nyc,58,59,Contamination and Chemical Hazards,97
+Providing single-use plastic stirrers or single-use plastic splash sticks.,nyc,24,25,Disposable Items and Use Restrictions,92
+"Written Standard Operating Procedure (SOP) approved by the Department for refillable, reusable containers not available at the time of inspection.  Container construction improper",nyc,24,25,Disposable Items and Use Restrictions,88
+"Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding.",nyc,62,63,Temperature Measurement Compliance,83
+"Unclean or cracked whole eggs or unpasteurized liquid, frozen or powdered eggs kept or used.",nyc,51,52,Raw and Unpasteurized Foods,73
+"Failure to make a good faith effort to inform smokers or electronic cigarette users of Smoke-Free Air Act (""SFAA"") prohibitions",nyc,17,18,Signage and Compliance Violations,68
+Hand wash sign not posted,nyc,23,24,Signage Compliance Violations,63
+Current letter grade sign not posted.,nyc,1,2,Signage and Presentation Compliance,53
+"Sodium Warning icon not posted on menus, menu boards or food tags for food items that contain 2300mg or more of sodium in a food service establishment that is 1 of 15 or more outlets operating the same type of business nationally under common ownership or control, or as a franchise or doing business under the same name, for each menu item that is served in portions, the size and content of which are standardized",nyc,8,9,Sodium Warning Violations,46
+Ashtray present in smoke-free area.,nyc,17,18,Signage and Compliance Violations,45
+Smoking or electronic cigarette use allowed in prohibited area,nyc,17,18,Signage and Compliance Violations,45
+"Tobacco use, eating, or drinking from open container in food preparation, food storage or dishwashing area observed.",nyc,41,42,Consumption and Tobacco Use Violations,41
+Expanded Polystyrene (EPS) single service article not designated as a recyclable material.,nyc,49,50,Single-Service Article Compliance,37
+Sodium Warning statement not posted conspicuously at the point of purchase. “Warning: [icon image] indicates that the sodium (salt) content of this item is higher than the total daily recommended limit (2300 mg). High sodium intake can increase blood pressure and risk of heart disease and stroke.”,nyc,8,9,Sodium Warning Violations,34
+Food service operation occurring in room or area used as living or sleeping quarters.,nyc,53,54,Food Safety and Sanitation Violations,32
+No or inadequate potable water supply. Water or ice not potable or from unapproved source. Bottled water not NY State certified. Cross connection in potable water supply system.,nyc,15,16,Water and Ice Safety,30
+Original label for smoking products sold or offered for sale.,nyc,16,17,Tobacco and Smoking Regulations,29
+Insufficient or no refrigerated or hot holding equipment to keep potentially hazardous foods at required temperatures.,nyc,60,61,Time-Temperature Control Procedures,27
+"No facilities available to wash, rinse and sanitize utensils and/or equipment.",nyc,36,37,Sanitation and Facilities Compliance,26
+Canned food product observed dented and not segregated from other consumable food items.,nyc,47,48,Damaged Canned Food Handling,25
+"Document issued by the Board of Health, Commissioner or Department reproduced or altered. False, untrue or misleading statement or document made to, submitted or filed with the Department",nyc,13,14,Compliance and Corrections,22
+MISBRANDED AND LABELING,nyc,33,34,Food Labeling Compliance,22
+Hot food item that has been cooked and refrigerated is being held for service without first being reheated to 165º F or above within 2 hours.,nyc,61,62,Holding and Cooking Temperatures,21
+Food from unapproved or unknown source or home canned. Reduced oxygen packaged (ROP) fish not frozen before processing; or ROP foods prepared on premises transported to another site.,nyc,59,60,Contamination Prevention,19
+Providing compostable plastic straws to be used outside of the food establishment’s premises; failure to appropriately dispose of compostable plastic straws; failure to maintain required bins for disposal of compostable plastic straws.,nyc,24,25,Disposable Items and Use Restrictions,18
+Food prepared from ingredients at ambient temperature not cooled to 41º F or below within 4 hours.,nyc,61,62,Holding and Cooking Temperatures,18
+"Order or notice posted or required to be posted by the Department mutilated, obstructed or removed.",nyc,13,14,Compliance and Corrections,17
+Commercially processed pre-cooked TCS in hermetically sealed containers and precooked TCS in intact packages from non-retail food processing establishments not heated to 140 °F within 2 hours of removal from container or package.,nyc,61,62,Holding and Cooking Temperatures,17
+"Unapproved outdoor, street or sidewalk cooking.",nyc,46,47,Sourcing and Handling Compliance,17
+"Covered garbage receptacle not provided or inadequate, except that garbage receptacle may be uncovered during active use. Garbage storage area not properly constructed or maintained; grinder or compactor dirty.",nyc,39,40,Waste Management Violations,17
+"Bulb not shielded or shatterproof, in areas where there is extreme heat, temperature changes, or where accidental contact may occur.",nyc,4,5,Lighting Safety Compliance,16
+"Design, construction, materials used or maintenance of food contact surface improper.  Surface not easily cleanable, sanitized and maintained.  Culinary sink or other acceptable method not provided for washing food.",nyc,55,56,Surface Cleanliness and Maintenance,14
+Lighting Inadequate,nyc,4,5,Lighting Safety Compliance,13
+"Failure to comply with an order of the Board of Health, Commissioner or Department.",nyc,13,14,Compliance and Corrections,13
+Duties of an officer of the Department interfered with or obstructed.,nyc,13,14,Compliance and Corrections,12
+"Current valid permit, registration or other authorization to operate a Food Service Establishment (FSE) or Non-retail Food Processing Establishment (NRFP) not available.",nyc,57,58,Food Safety Certification,10
+Food not cooked to required minimum temperature.,nyc,61,62,Holding and Cooking Temperatures,9
+Food worker or vendor working or is knowingly or negligently permitted to work in FSE while afflicted with infected wound or reportable communicable disease. No spitting allowed. Spitting anywhere in the establishment is prohibited.,nyc,57,58,Food Safety Certification,8
+Warning sign re dangers of hookah smoking not posted at or on each public entryway to Non-Tobacco Hookah Establishment (NTHE) patron,nyc,17,18,Signage and Compliance Violations,8
+"Letter grade or Grade Pending card removed, destroyed, modified, obscured, or otherwise tampered with",nyc,1,2,Signage and Presentation Compliance,7
+"Manufacture of frozen dessert not authorized on Food Service Establishment permit. Milk or milk product undated, improperly dated or expired.",nyc,57,58,Food Safety Certification,6
+"A food containing artificial trans-fat, with 0.5 grams or more of trans fat per serving, is being stored, distributed, held for service, used in preparation of a menu item, or served.",nyc,33,34,Food Labeling Compliance,6
+Unpasteurized milk or milk product (except certain aged cheese) served.,nyc,51,52,Raw and Unpasteurized Foods,5
+"Failure to provide a single-use, non-compostable plastic straw upon request.",nyc,24,25,Disposable Items and Use Restrictions,5
+Prohibited drink listed on children's meal menu,nyc,59,60,Contamination Prevention,5
+Food contact surface improperly constructed or located. Unacceptable material used.,nyc,55,56,Surface Cleanliness and Maintenance,5
+"Toxic chemical improperly labeled, stored or used such that food contamination may occur.",nyc,58,59,Contamination and Chemical Hazards,5
+Sewage disposal system improper or unapproved.,nyc,38,39,Plumbing and Sewage Issues,5
+Permit not conspicuously displayed.,nyc,17,18,Signage and Compliance Violations,5
+Sale or use of certain expanded polystyrene items restricted,nyc,16,17,Tobacco and Smoking Regulations,5
+Raw fruit or vegetable not properly washed prior to cutting or serving.,nyc,30,31,Food Hygiene and Sanitation,4
+"Required nutritional information statement not posted (2,000 calories per day).",nyc,7,8,Nutritional Information Disclosure Violations,4
+"Harmful, noxious gas or vapor detected. CO =13 ppm.",nyc,58,59,Contamination and Chemical Hazards,4
+Records and logs not maintained to show that approved HACCP plan has been properly implemented.,nyc,31,32,HACCP and ROP Compliance Violations,4
+"Food package (including canned food product or hermetically sealed container) not in good condition to the degree contents are not suitable for human consumption. Package is swollen, leaking or rusted, without “DO NOT USE” label or not segregated from consumable food items.",nyc,47,48,Damaged Canned Food Handling,4
+Required calorie information not posted/improperly posted.,nyc,7,8,Nutritional Information Disclosure Violations,3
+Food allergy information poster not posted in language understood by all food workers.,nyc,25,26,Allergen Awareness Compliance,3
+Workplace SFAA policy not prominently posted in workplace,nyc,17,18,Signage and Compliance Violations,3
+Sodium Warning - Statement,nyc,8,9,Sodium Warning Violations,3
+ROP processing equipment not approved by DOHMH.,nyc,31,32,HACCP and ROP Compliance Violations,3
+Food not labeled in accordance with the approved HACCP plan,nyc,31,32,HACCP and ROP Compliance Violations,3
+Non-TCS food that has been served to the public being re-served. (Does not apply to wrapped foods where the wrapper seal has not been broken or opened).,nyc,61,62,Holding and Cooking Temperatures,2
+"Sodium Warning icon posted on menus, menu boards or food tags for food items that contain 2300mg or more of sodium is not a black and white equilateral triangle; or the  equilateral triangle is not as wide as it is tall, or is not equal in height to the largest letter in the food item’s name, as displayed on the menu, menu board, or tag.",nyc,8,9,Sodium Warning Violations,2
+"Sale of tobacco products, herbal cigarettes, liquid nicotine, shisha, rolling papers or smoking paraphernalia to minors prohibited",nyc,16,17,Tobacco and Smoking Regulations,2
+No Smoking permitted in an area where it is prohibited,nyc,17,18,Signage and Compliance Violations,2
+Organics mixed with non-organic material,nyc,46,47,Sourcing and Handling Compliance,2
+"Precooked potentially hazardous food from commercial food processing establishment that is supposed to be heated, but is not heated to 140º F within 2 hours.",nyc,61,62,Holding and Cooking Temperatures,2
+"Notice of the Department of Board of Health mutilated, obstructed, or removed.",nyc,13,14,Compliance and Corrections,1
+Sign prohibiting entry of persons under 21 years of age not posted at public entryway to Non-Tobacco Hookah Establishment (NTHE),nyc,17,18,Signage and Compliance Violations,1
+Sodium Warning - Icon not compliant,nyc,8,9,Sodium Warning Violations,1
+Potable water supply inadequate. Water or ice not potable or from unapproved source. Cross connection in potable water supply system observed.,nyc,15,16,Water and Ice Safety,1
+Food allergy poster not approved by the Department of Health and Mental Hygiene.,nyc,25,26,Allergen Awareness Compliance,1
+Failure to post signage in organics collection area.,nyc,23,24,Signage Compliance Violations,1
+"""No Smoking"" sign not posted with ashtrays in hotel or motels, or at hotel or motels entrances.",nyc,17,18,Signage and Compliance Violations,1
+"Canned food product observed swollen, leaking or rusted, and not segregated from other consumable food items.",nyc,47,48,Damaged Canned Food Handling,1
+"Meat, fish or molluscan shellfish served raw or undercooked without prior notification to customer.",nyc,52,53,Food Safety and Preparation,1
+"Eggs found dirty/cracked; liquid, frozen or powdered eggs not pasteurized.",nyc,51,52,Raw and Unpasteurized Foods,1
+Refrigeration unit used to implement HACCP plan not equipped with an electronic system that continuously monitors time and temperature.,nyc,31,32,HACCP and ROP Compliance Violations,1
+Sign lettering and color does not meet specifications.,nyc,23,24,Signage Compliance Violations,1
+Organics containers not provided,nyc,24,25,Disposable Items and Use Restrictions,1
+Sodium Warning - Icon not posted,nyc,8,9,Sodium Warning Violations,1

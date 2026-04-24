@@ -1,0 +1,91 @@
+violation_desc_city_a,city_a,violation_desc_city_b,city_b,cosine_similarity,match_validated,taxonomy_category_id
+WASHING FRUITS & VEGETABLES,chicago,Washing Fruits and Vegetables,boston,0.9969,True,31.0
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,Non-Food Contact Surfaces Clean,boston,0.989,True,56.0
+PROPER REHEATING PROCEDURES FOR HOT HOLDING,chicago,Reheating for Hot Holding,boston,0.9379,True,55.0
+"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,Food-Contact Surfaces-Cleanability,boston,0.9309,True,56.0
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,Food-Contact Surfaces-Cleanability,boston,0.9279,True,56.0
+"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,Non-Food Contact Surfaces Clean,boston,0.9275,True,56.0
+FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,Food-Contact Surfaces-Cleanability,boston,0.9152,True,56.0
+PROPER USE OF RESTRICTION AND EXCLUSION,chicago,Exclusions & Restrictions,boston,0.9146,True,10.0
+TIME AS A PUBLIC HEALTH CONTROL; PROCEDURES & RECORDS,chicago,Time as a Public Health Control,boston,0.9109,True,15.0
+FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,Non-Food Contact Surfaces Clean,boston,0.8838,True,56.0
+PASTEURIZED FOODS USED; PROHIBITED FOODS NOT OFFERED,chicago,(D) Pasteurized Foods  Prohibited Re-Service  and Prohibited Foods,boston,0.8743,True,51.0
+"Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.",nyc,FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,0.8631,True,56.0
+"NO DISCHARGE FROM EYES, NOSE, AND MOUTH",chicago,Discharges from the Eyes  Nose  and Mouth,boston,0.861,True,
+SINGLE-USE/SINGLE-SERVICE ARTICLES: PROPERLY STORED & USED,chicago,Single-Service and Single-Use Articles  Required Use,boston,0.861,True,50.0
+SINGLE-USE/SINGLE-SERVICE ARTICLES: PROPERLY STORED & USED,chicago,Single-Service and Single-Use Articles-Use Limitations,boston,0.8555,True,50.0
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.8455,True,56.0
+TIME AS A PUBLIC HEALTH CONTROL; PROCEDURES & RECORDS,chicago,Time as a Public Health Control ( Pf),boston,0.8441,True,15.0
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,Food-Contact Surfaces-Cleanability,boston,0.8405,True,56.0
+IN-USE UTENSILS: PROPERLY STORED,chicago,In-Use Utensils  Between-Use Storage,boston,0.8404,True,57.0
+PROCEDURES FOR RESPONDING TO VOMITING AND DIARRHEAL EVENTS,chicago,Clean-up of Vomiting and Diarrheal Events,boston,0.8397,True,
+PASTEURIZED FOODS USED; PROHIBITED FOODS NOT OFFERED,chicago,(A)  (B)  (C)  (E) and (G) Pasteurized Foods  Prohibited Re-Service  and Prohibited Food,boston,0.833,True,51.0
+"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.8292,True,56.0
+"Wiping cloths not stored clean and dry, or in a sanitizing solution, between uses.",nyc,WIPING CLOTHS: PROPERLY USED & STORED,chicago,0.8247,True,46.0
+PASTEURIZED EGGS USED WHERE REQUIRED,chicago,Pasteurized Eggs Substituted for Raw Eggs for Certain Recipes,boston,0.8206,True,52.0
+"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,(B) and (C) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.8199,True,56.0
+FOOD SEPARATED AND PROTECTED,chicago,Food Protection,boston,0.8118,True,60.0
+"Food not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",chicago,0.8101,True,60.0
+"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.8089,True,56.0
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,0.8082,True,56.0
+"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",chicago,Food Display-Preventing Contamination by Consumers,boston,0.7995,True,60.0
+Food contact surface not properly maintained.,nyc,Food-Contact Surfaces-Cleanability,boston,0.7918,True,56.0
+"Food, supplies, and equipment not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",chicago,0.7913,True,60.0
+PROPER COLD HOLDING TEMPERATURES,chicago,Cold Holding,boston,0.7866,True,55.0
+HANDS CLEAN & PROPERLY WASHED,chicago,Clean condition-Hands and Arms,boston,0.7831,True,
+ADEQUATE HANDWASHING SINKS PROPERLY SUPPLIED AND ACCESSIBLE,chicago,Handwashing Sinks-Numbers and Capacities,boston,0.7821,True,49.0
+"CONTAMINATION PREVENTED DURING FOOD PREPARATION, STORAGE & DISPLAY",chicago,Food Storage-Preventing Contamination from the Premises,boston,0.7819,True,60.0
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.778,True,56.0
+"Food not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,Food Storage-Preventing Contamination from the Premises,boston,0.7726,True,60.0
+"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,Non-Food Contact Surfaces Clean,boston,0.771,True,56.0
+"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,0.7695,True,56.0
+"Insufficient or no hot holding, cold storage or cold holding equipment provided to maintain Time/Temperature Control for Safety Foods (TCS) at required temperatures",nyc,(A)(1) Time/Temperature Control for Safety Food  Hot and Cold Holding,boston,0.7693,True,61.0
+"PROPER DISPOSITION OF RETURNED, PREVIOUSLY SERVED, RECONDITIONED & UNSAFE FOOD",chicago,Returned Food and Re-service of Food,boston,0.7692,True,54.0
+ADEQUATE HANDWASHING SINKS PROPERLY SUPPLIED AND ACCESSIBLE,chicago,Using a Handwashing Sink-Operation and Maintenance,boston,0.7688,True,49.0
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7652,True,56.0
+"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7646,True,56.0
+WIPING CLOTHS: PROPERLY USED & STORED,chicago,Wiping Cloths  Use Limitation,boston,0.7635,True,46.0
+"Accurate thermometer not provided or properly located in refrigerated, cold storage or hot holding equipment",nyc,THERMOMETERS PROVIDED & ACCURATE,chicago,0.7628,True,63.0
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,(B) and (C) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7627,True,56.0
+"Design, construction, materials used or maintenance of food contact surface improper.  Surface not easily cleanable, sanitized and maintained.  Culinary sink or other acceptable method not provided for washing food.",nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.7618,True,56.0
+"UTENSILS, EQUIPMENT & LINENS: PROPERLY STORED, DRIED, & HANDLED",chicago,(A) and (C) Equipment  Utensils  Linens and Single-Service and Single-Use Articles-Storing,boston,0.7573,True,57.0
+FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7562,True,56.0
+"Eggs found dirty/cracked; liquid, frozen or powdered eggs not pasteurized.",nyc,PASTEURIZED EGGS USED WHERE REQUIRED,chicago,0.7536,True,52.0
+"Design, construction, materials used or maintenance of food contact surface improper.  Surface not easily cleanable, sanitized and maintained.  Culinary sink or other acceptable method not provided for washing food.",nyc,Food-Contact Surfaces-Cleanability,boston,0.7508,True,56.0
+"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",nyc,(B) and (C) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7505,True,56.0
+PROPER USE OF RESTRICTION AND EXCLUSION,chicago,Removal  Adjustment  or Retention of Exclusions & Restrictions,boston,0.7502,True,10.0
+"PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",chicago,(O) Person in Charge-Duties,boston,0.75,True,13.0
+Food contact surface not properly maintained.,nyc,FOOD-CONTACT SURFACES: CLEANED & SANITIZED,chicago,0.7483,True,56.0
+PROPER COOLING METHODS USED; ADEQUATE EQUIPMENT FOR TEMPERATURE CONTROL,chicago,(A )Cooling Methods,boston,0.7478,True,38.0
+GLOVES USED PROPERLY,chicago,(A) Gloves  Use Limitation,boston,0.7459,True,41.0
+"Food, supplies, and equipment not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,Food Storage-Preventing Contamination from the Premises,boston,0.7456,True,60.0
+Food contact surface not properly maintained.,nyc,(A) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7451,True,56.0
+FOOD PROPERLY LABELED; ORIGINAL CONTAINER,chicago,Food Labels,boston,0.7425,True,34.0
+"UTENSILS, EQUIPMENT & LINENS: PROPERLY STORED, DRIED, & HANDLED",chicago,(A)  (B) and (D) Equipment  Utensils  Linens and Single-Service and Single-Use Articles Storing,boston,0.7414,True,57.0
+Food contact surface improperly constructed or located. Unacceptable material used.,nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.7394,True,56.0
+"Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.7391,True,56.0
+"Insufficient or no hot holding, cold storage or cold holding equipment provided to maintain Time/Temperature Control for Safety Foods (TCS) at required temperatures",nyc,(A)(2) and (B) Time/Temperature Control for Safety Food  Hot and Cold Holding,boston,0.7375,True,61.0
+Food contact surface not properly maintained.,nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.7373,True,56.0
+"Wiping cloths not stored clean and dry, or in a sanitizing solution, between uses.",nyc,Wiping Cloths  Use Limitation,boston,0.7364,True,46.0
+"PROPER EATING, TASTING, DRINKING, OR TOBACCO USE",chicago,Eating  Drinking  or Using Tobacco,boston,0.7355,True,42.0
+Wiping cloths soiled or not stored in sanitizing solution.,nyc,WIPING CLOTHS: PROPERLY USED & STORED,chicago,0.7325,True,46.0
+Food contact surface not properly maintained.,nyc,(B) and (C) Equipment  Food-Contact Surfaces  Nonfood-Contact Surfaces  and Utensils,boston,0.7318,True,56.0
+"Dishwashing and ware washing: Cleaning and sanitizing of tableware, including dishes, utensils, and equipment deficient.",nyc,Kitchenware and Tableware-Preventing Contamination,boston,0.7303,True,
+PROPER COOLING METHODS USED; ADEQUATE EQUIPMENT FOR TEMPERATURE CONTROL,chicago,(B) Cooling Methods,boston,0.7298,True,38.0
+"Food contact surface, refillable, reusable containers, or equipment improperly constructed, placed or maintained. Unacceptable material used. Culinary sink or other acceptable method not provided for washing food.",nyc,"FOOD & NON-FOOD CONTACT SURFACES CLEANABLE, PROPERLY DESIGNED, CONSTRUCTED & USED",chicago,0.7284,True,56.0
+NON-FOOD/FOOD CONTACT SURFACES CLEAN,chicago,Nonfood Contact Surfaces,boston,0.7278,True,56.0
+"PERSON IN CHARGE PRESENT, DEMONSTRATES KNOWLEDGE, AND PERFORMS DUTIES",chicago,(A)-(P) Person-In-Charge-Duties,boston,0.7268,True,13.0
+PROPER USE OF RESTRICTION AND EXCLUSION,chicago,Restriction-Presence and Use,boston,0.7246,True,10.0
+"Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,Nonfood Contact Surfaces,boston,0.7175,True,56.0
+"Bulb not shielded or shatterproof, in areas where there is extreme heat, temperature changes, or where accidental contact may occur.",nyc,Light Bulbs  Protective Shielding,boston,0.7168,True,5.0
+"WAREWASHING FACILITIES: INSTALLED, MAINTAINED & USED; TEST STRIPS",chicago,Warewashing Equipment  Cleaning Agents,boston,0.7156,True,64.0
+"Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.",nyc,Rinsing Equipment and Utensils after Cleaning and Sanitizing,boston,0.7136,True,
+FOOD ADDITIVES: APPROVED AND PROPERLY USED,chicago,Protection from Unapproved Additives,boston,0.7111,True,47.0
+"Food not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,Food Display-Preventing Contamination by Consumers,boston,0.7108,True,60.0
+"UTENSILS, EQUIPMENT & LINENS: PROPERLY STORED, DRIED, & HANDLED",chicago,Food Contact with Equipment  Utensils  and Linens,boston,0.7058,True,
+"WAREWASHING FACILITIES: INSTALLED, MAINTAINED & USED; TEST STRIPS",chicago,Warewashing Equipment  Clean Solutions,boston,0.7049,True,64.0
+"Food not protected from potential source of contamination during storage, preparation, transportation, display or service.",nyc,Food Protection,boston,0.7044,True,60.0
+Proper sanitization not provided for utensil ware washing operation.,nyc,Rinsing Equipment and Utensils after Cleaning and Sanitizing,boston,0.7044,True,64.0
+"Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",nyc,Nonfood-Contact Surfaces,boston,0.7041,True,56.0
+Food Protection Certificate not held by supervisor of food operations.,nyc,(A) Certified Food Protection Manager,boston,0.7039,True,58.0
+GLOVES USED PROPERLY,chicago,(B)-(D) Gloves  Use Limitations,boston,0.7011,True,41.0
