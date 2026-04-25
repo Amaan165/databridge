@@ -193,12 +193,16 @@ def insert_into_duckdb(db_path: str, categories_df: pd.DataFrame,
 
         # Register as temp table and update via JOIN
         con.execute("CREATE TEMP TABLE tax_lookup AS SELECT * FROM tax_lookup")
-        updated = con.execute("""
+        updated = con.execute(r"""
             UPDATE dim_violations v
             SET taxonomy_category_id = t.taxonomy_category_id
             FROM tax_lookup t
-            WHERE v.violation_description = t.violation_description
-              AND v.city = t.city
+            WHERE TRIM(REGEXP_REPLACE(
+                    v.violation_description,
+                    '\s*\((C|P|Pf|Pf\*)\)\s*$',
+                    ''
+                )) = t.violation_description
+            AND v.city = t.city
         """)
 
         # Report coverage

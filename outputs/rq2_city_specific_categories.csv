@@ -1,0 +1,8 @@
+category_name,nyc_pct,chicago_pct,boston_pct,dominant_city
+Maintenance and Repair Compliance,0.0,0.0,7.367006560746186,boston
+Structural Cleanliness and Maintenance,0.0,0.0,6.726740969093352,boston
+Backflow Prevention Compliance,0.0,5.138339920948617,0.6896688008853056,chicago
+Handwashing Sink Compliance,0.06658474397353933,5.893170838823012,4.217057940083787,chicago
+Sanitation and Facilities Compliance,2.1908004785440136,18.83989350021959,0.44462888309224563,chicago
+Holding and Cooking Temperatures,14.10676295289806,0.004803469477382521,0.03754643901667852,nyc
+Plumbing and Sewage Issues,6.826289605742527,0.0,0.00988064184649435,nyc

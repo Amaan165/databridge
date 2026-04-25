@@ -1,0 +1,146 @@
+city,category_name,n
+chicago,Ventilation and Lighting Compliance,7144
+nyc,Sanitation and Cleaning Practices,3534
+nyc,Contamination and Chemical Hazards,3586
+nyc,Food Safety and Sanitation Violations,294
+nyc,Allergen Awareness Compliance,477
+boston,Maintenance and Repair Compliance,3728
+boston,Waste and Drainage Management,430
+boston,Temperature Control,69
+chicago,Surface Cleanliness and Maintenance,26924
+nyc,Contamination Prevention,13270
+chicago,Food Labeling Compliance,4362
+chicago,Water and Temperature Control,397
+chicago,Shellfish Identification and Records,278
+nyc,Juice Handling Violations,223
+nyc,Sodium Warning Violations,50
+nyc,Prohibited Foods Compliance,94
+nyc,Damaged Canned Food Handling,483
+boston,Personal Hygiene Violations,568
+boston,Signage Compliance Violations,587
+boston,Waste Management Violations,1230
+boston,Waste Management,900
+boston,Temperature Measurement Compliance,634
+boston,Storage and Equipment Management,120
+chicago,Handwashing Sink Compliance,8588
+chicago,Employee and Management Responsibilities,1905
+nyc,Holding and Cooking Temperatures,26059
+nyc,Food Safety and Preparation,4234
+nyc,Raw and Unpasteurized Foods,161
+boston,Warewashing and Sanitization Compliance,3426
+boston,Pest Control Management,2106
+boston,Compliance and Corrections,278
+chicago,Time-Temperature Control Procedures,3
+chicago,Variance and Specialized Processing Compliance,518
+chicago,Thawing Procedures,575
+nyc,Warewashing and Sanitization Compliance,4382
+nyc,Pest Control Management,1142
+chicago,Single-Service Article Compliance,1551
+chicago,Consumption and Tobacco Use Violations,343
+boston,Cooling and Temperature Control,656
+boston,Food Safety and Preparation,698
+boston,Medicine and First Aid Storage,31
+boston,Holding and Cooking Temperatures,19
+nyc,Compliance and Corrections,34
+boston,Raw and Unpasteurized Foods,2
+chicago,Sanitation and Facilities Compliance,27455
+chicago,Food Safety Certification,8976
+chicago,Pest Infestation Issues,7137
+nyc,Signage and Presentation Compliance,1027
+boston,Outdoor Storage and Protection,736
+chicago,Water and Ice Safety,5
+chicago,Cooling and Temperature Control,1877
+boston,Consumption and Tobacco Use Violations,243
+nyc,Time-Temperature Control Procedures,609
+nyc,Lighting Safety Compliance,316
+chicago,Food Safety and Preparation,1185
+nyc,Handwashing Sink Compliance,123
+boston,Thawing Procedures,314
+boston,Variance and Specialized Processing Compliance,61
+boston,Prohibited Practices,341
+boston,Single-Service Article Compliance,92
+chicago,Raw and Unpasteurized Foods,2
+chicago,Holding and Cooking Temperatures,7
+boston,Plumbing and Sewage Issues,5
+chicago,Signage and Presentation Compliance,632
+nyc,Sanitation and Facilities Compliance,4047
+nyc,Pest Infestation Issues,38112
+nyc,Food Safety Certification,5322
+chicago,Person in Charge Duties,2015
+boston,HACCP and ROP Compliance Violations,71
+nyc,Water and Ice Safety,20
+chicago,Time Control for Safety,33
+chicago,Operational Compliance Requirements,3
+nyc,Temperature Measurement Compliance,1656
+nyc,Signage Compliance Violations,1498
+nyc,Waste Management Violations,1021
+nyc,Personal Hygiene Violations,2907
+chicago,Nutritional Information Disclosure Violations,506
+chicago,Sourcing and Handling Compliance,51
+boston,Contamination Prevention,3179
+boston,Prohibited Foods Compliance,182
+chicago,Food Hygiene and Sanitation,7
+boston,Juice Handling Violations,9
+chicago,Disposable Items and Use Restrictions,5
+chicago,Warewashing and Sanitization Compliance,2697
+nyc,Plumbing and Sewage Issues,12610
+nyc,Signage and Compliance Violations,1502
+nyc,Thawing Procedures,1748
+nyc,Consumption and Tobacco Use Violations,789
+chicago,Compliance and Corrections,3241
+boston,Handwashing Sink Compliance,2134
+boston,Time-Temperature Control Procedures,2475
+boston,Lighting Safety Compliance,373
+boston,Employee and Management Responsibilities,96
+nyc,Single-Service Article Compliance,116
+chicago,Contamination Prevention,4583
+nyc,Surface Cleanliness and Maintenance,44226
+nyc,Food Labeling Compliance,304
+boston,Food Hygiene and Sanitation,777
+boston,Sourcing and Handling Compliance,60
+boston,Disposable Items and Use Restrictions,249
+boston,Nutritional Information Disclosure Violations,15
+chicago,Prohibited Foods Compliance,2
+chicago,Backflow Prevention Compliance,7488
+boston,Sanitation and Cleaning Practices,2893
+boston,Food Safety and Sanitation Violations,257
+boston,Utensil and Equipment Storage,1645
+boston,Contamination and Chemical Hazards,542
+chicago,Personal Hygiene and Equipment Maintenance,106
+chicago,Personal Hygiene Violations,2116
+chicago,Waste Management Violations,2607
+nyc,Nutritional Information Disclosure Violations,1112
+nyc,Disposable Items and Use Restrictions,3014
+chicago,Temperature Measurement Compliance,2700
+chicago,Signage Compliance Violations,8
+boston,Surface Cleanliness and Maintenance,7120
+boston,Food Labeling Compliance,1779
+boston,Water and Temperature Control,105
+boston,Shellfish Identification and Records,325
+nyc,Sourcing and Handling Compliance,15
+nyc,Food Hygiene and Sanitation,2
+boston,Time Control for Safety,39
+boston,Operational Compliance Requirements,462
+boston,Person in Charge Duties,1095
+boston,Signage and Presentation Compliance,10
+chicago,Sanitation and Cleaning Practices,2755
+chicago,Utensil and Equipment Storage,3455
+chicago,Food Safety and Sanitation Violations,1285
+chicago,Allergen Awareness Compliance,6532
+nyc,Ventilation and Lighting Compliance,1039
+chicago,Contamination and Chemical Hazards,200
+boston,Personal Hygiene and Equipment Maintenance,158
+boston,Backflow Prevention Compliance,349
+boston,Equipment Installation and Maintenance,27
+boston,Chemical and Safety Violations,18
+nyc,HACCP and ROP Compliance Violations,204
+nyc,Tobacco and Smoking Regulations,92
+boston,Food Safety Certification,655
+boston,Material Use Limitations,111
+boston,Sanitation and Facilities Compliance,225
+boston,Pest Infestation Issues,392
+boston,Water and Ice Safety,39
+chicago,Temperature Control,3469
+nyc,Chemical and Safety Violations,3273
+boston,Structural Cleanliness and Maintenance,3404
+boston,Ventilation and Lighting Compliance,2060
