@@ -6,6 +6,7 @@ data/raw/*.z01
 # ── Large binary artifacts ────────────────────────────────────
 violation_taxonomy/violation_embeddings.npy
 *.npy
+data/integrated/databridge.duckdb
 
 # ── Python ────────────────────────────────────────────────────
 __pycache__/
