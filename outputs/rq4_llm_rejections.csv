@@ -1,0 +1,5 @@
+category,difficulty,city_a,text_a,city_b,text_b,sim,in_crosswalk
+Food Contact Surface Cleaning,easy,nyc,"Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.",boston,Food-Contact Surfaces-Cleanability,0.7937868237495422,False
+Thawing Procedures,easy,nyc,Thawing procedure improper.,chicago,APPROVED THAWING METHODS USED,0.7828603982925415,False
+Toxic / Chemical Storage,easy,nyc,"Toxic chemical improperly labeled, stored or used such that food contamination may occur.",chicago,"TOXIC SUBSTANCES PROPERLY IDENTIFIED, STORED, & USED",0.7571671605110168,False
+Handwashing Facilities,medium,chicago,ADEQUATE HANDWASHING SINKS PROPERLY SUPPLIED AND ACCESSIBLE,boston,Handwashing Sinks-Location and Placement,0.7246552109718323,False

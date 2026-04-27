@@ -1,0 +1,4 @@
+regime,n_predicted,tp,fp,precision,recall
+embedding-only @ 0.70,126,12,114,0.095,0.167
+embedding-only @ 0.85,15,2,13,0.133,0.028
+embedding + LLM (production),90,8,82,0.089,0.111

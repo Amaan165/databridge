@@ -15,9 +15,9 @@ Pipeline stages:
   5. Warehouse     load_duckdb.py
   6. Taxonomy load load_taxonomy.py (taxonomy + crosswalk -> DuckDB)
   7. Verify        verify_duckdb.py
-  8. Analysis      rq3_reinspections.py
-                   (RQ1/RQ2 live in cross_city_analysis.ipynb;
-                    RQ4 lives in rq4_crosswalk_eval.py — both run separately)
+  8. Analysis      rq3_reinspections.py + rq4_crosswalk_eval.py
+                   (RQ1/RQ2 live in cross_city_analysis.ipynb,
+                    runs separately as a notebook)
 
 Usage:
   cd databridge/
@@ -73,6 +73,7 @@ STAGES = {
     ],
     "analysis": [
         ("RQ3 re-inspections",          ["python", "analysis/rq3_reinspections.py"]),
+        ("RQ4 crosswalk evaluation",    ["python", "analysis/rq4_crosswalk_eval.py"]),
     ],
 }
 

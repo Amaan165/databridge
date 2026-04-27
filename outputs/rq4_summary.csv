@@ -1,0 +1,14 @@
+metric,value
+n_ground_truth_pairs,72.0
+n_crosswalk_pairs,90.0
+gt_in_crosswalk,8.0
+gt_recall,0.111
+gt_rejected_by_llm,4.0
+gt_below_threshold,60.0
+best_f1_threshold,0.65
+best_f1,0.136
+best_f1_precision,0.09
+best_f1_recall,0.278
+production_threshold,0.7
+production_precision,0.095
+production_recall,0.167
